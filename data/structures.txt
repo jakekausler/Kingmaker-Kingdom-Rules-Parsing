@@ -1,0 +1,87 @@
+name	level	lots	edifice	residential	months	population	size
+Academy	10	2	true	false	4	100	Town
+Aerie	7	1	true	false	3	10	Town
+Alchemy Laboratory	3	1	false	false	3	10	Town
+Arcanist’s Tower	5	1	false	false	5	10	Town
+Arena	9	4	true	false	10	100	City
+Assembly	8	2	true	false	6	50	City
+Bank	5	1	false	false	7	10	City
+Bardic College	9	2	false	false	8	50	City
+Barracks	3	1	false	true	1	20	Village
+Baths	3	1	false	false	1	20	Town
+Brewery	1	1	false	false	1	20	Village
+Brickyard	4	2	false	false	4	50	Village
+Bridge	2	0 or 1	false	false	1	0	Town
+Bureau	4	2	false	false	2	50	City
+Castle	9	4	true	false	11	200	Town
+Cathedral	15	4	true	false	12	100	City
+Cemetery	1	1	false	false	1	0	Village
+Cistern	1	1	false	false	1	10	Town
+Colossus	15	4	true	false	12	20	City
+Construction Yard	10	4	false	false	4	30	Town
+Courthouse	6	1	false	false	4	20	Town
+Crematorium	4	1	false	false	1	10	Town
+Dump	2	1	false	false	1	10	Town
+Embassy	8	2	false	false	4	50	City
+Everflowing Spring	5	0	true	false	3	10	Village
+Festival Hall	3	1	false	false	1	30	Village
+Foundry	3	2	false	false	4	60	Town
+Gambling Den	3	1	false	false	2	20	Town
+Garrison	5	2	false	true	4	200	Town
+General Store	1	1	false	false	2	20	Village
+Granary	1	1	false	false	2	10	Village
+Guildhall	5	2	false	false	6	100	Town
+Hanging Gardens	15	4	true	false	12	50	City
+Herbalist	1	1	false	false	2	10	Village
+Hospital	9	2	false	false	6	90	City
+Houses	1	1	false	true	1	50	Village
+Illicit Market	6	1	false	false	5	20	City
+Inn	1	1	false	true	2	30	Village
+Jail	2	1	false	false	2	20	Village
+Keep	3	2	true	false	4	100	Village
+Library	2	1	false	false	2	10	Village
+Lumberyard	3	2	false	false	2	50	Village
+Luxury Store	6	1	false	false	4	10	Town
+Magic Shop	8	1	false	false	11	20	City
+Mansion	5	1	false	true	2	30	Village
+Marketplace	4	2	false	true	8	150	Town
+Menagerie	12	4	true	false	4	60	City
+Military Academy	12	2	true	false	6	100	Town
+Mill	2	1	false	false	1	20	Village
+Mint	15	1	true	false	5	30	City
+Monastery	3	2	true	false	4	50	Village
+Monument	3	1	true	false	1	10	Village
+Museum	5	2	false	false	5	20	Town
+Noble Villa	9	2	false	true	4	50	Town
+Observatory	7	1	true	false	4	10	City
+Occult Shop	13	1	false	false	10	30	City
+Opera House	15	2	true	false	8	50	City
+Orphanage	2	1	false	true	1	50	City
+Palace	15	4	true	false	18	200	City
+Park	3	1	false	false	1	10	Town
+Pier	3	1	false	false	4	20	Village
+Rubble	—	1	false	false	-	0	Village
+Sacred Grove	5	1	false	false	6	10	Village
+Secure Warehouse	6	2	false	false	3	20	Town
+Shrine	1	1	false	false	2	10	Village
+Smithy	3	1	false	false	2	10	Village
+Smuggler’s Den	2	1	false	false	2	10	Village
+Specialized Artisan	4	1	false	false	2	20	Town
+Stable	3	1	false	false	2	10	Village
+Stockyard	3	4	false	false	4	100	Village
+Stonemason	3	2	false	false	2	50	Village
+Tannery	3	1	false	false	1	20	Village
+Tavern, Dive	1	1	false	false	2	20	Village
+Tavern, Popular	3	1	false	false	4	30	Village
+Tavern, Luxury	9	2	false	false	6	40	Town
+Tavern, World-Class	15	2	true	false	8	60	City
+Temple	7	2	false	false	8	50	Town
+Tenement	0	1	false	true	0	100	Town
+Theater	9	2	false	false	6	50	Town
+Thieves’ Guild	5	1	false	false	5	50	Town
+Town Hall	2	2	true	false	4	50	Town
+Trade Shop	3	1	false	false	2	10	Village
+University	15	4	true	false	11	200	City
+Watchtower	3	1	false	false	2	20	Village
+Waterfront	8	4	false	false	10	200	City
+Windmill	3	1	false	false	2	10	Village

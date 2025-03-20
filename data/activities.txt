@@ -1,0 +1,64 @@
+name	skill
+New Leadership	
+Collect Taxes	Trade
+Manage Trade Agreements (Trade)	
+Tap Treasury (Statecraft)	
+Trade Commodities (Industry)	
+Capital Investment (Trade)	
+Celebrate Holiday (Folklore)	
+Clandestine Business	Intrigue
+Craft Luxuries (Arts)	
+Create A Masterpiece	Arts
+Creative Solution (Scholarship)	
+Establish Trade Agreement	
+Focused Attention	
+Improve Lifestyle (Politics)	
+Hire Adventurers (Economy)	
+Infiltration (Intrigue)	
+Pledge Of Fealty (Trained)	
+Prognostication	Magic
+Provide Care (Defense)	
+Purchase Commodities (Trade)	
+Quell Unrest	
+Relocate Capital	Industry
+Repair Reputation (Trained)	
+Request Foreign Aid	Statecraft
+Rest And Relax	
+Send Diplomatic Envoy	Statecraft
+Supernatural Solution (Magic)	
+Take Charge (Trained)	
+Abandon Hex	
+Breed Livestock	Wilderness
+Build Fortification	Defense
+Build Roads (Engineering)	
+Claim Hex	
+Clear Hex	
+Crop Rotation	Agriculture
+Establish Farmland (Agriculture)	
+Establish Settlement	
+Establish Work Site (Engineering)	
+Fishing Fleet	Boating
+Fortify Hex (Defense)	
+Gather Livestock (Wilderness)	
+Go Fishing (Boating)	
+Harvest Crops (Agriculture)	
+Irrigation	Engineering
+Magical Terraforming	Magic
+Reconnoiter Hex (Wilderness)	
+Send Surveyors	Exploration
+Build Housing	Politics
+Build Structure	
+Demolish (Engineering)	
+Industrial Supply	Industry
+Magical Construction	Magic
+Rebuild	Engineering
+Supply Network	Trade
+Trade Fair	Trade
+Deploy Army	
+Disband Army	
+Garrison Army	
+Offensive Gambit	
+Outfit Army	
+Recover Army	
+Recruit Army	
+Train Army	
