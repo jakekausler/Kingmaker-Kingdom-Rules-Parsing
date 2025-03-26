@@ -1,36 +1,36 @@
-# Settlement Rules[[SettlementRules]]
+# <<Settlement|Settlement-Rules>> Rules[[SettlementRules]]
 
-A ruler’s territory provides the canvas upon which they can build a kingdom, but the true art of leadership is displayed in how one establishes and develops the settlements where citizens gather and live out their lives. While individual citizens like trappers, hunters, fishers, and farmers might dwell alone or with their families in the outskirts of a settlement, the majority of a kingdom’s people live within the villages, towns, cities, and metropolises built for them.
+A ruler’s territory provides the canvas upon which they can build a kingdom, but the true art of leadership is displayed in how one establishes and develops the <<settlements|Settlement-Rules>> where citizens gather and live out their lives. While individual citizens like trappers, hunters, fishers, and farmers might dwell alone or with their families in the outskirts of a <<settlement|Settlement-Rules>>, the majority of a kingdom’s people live within the villages, towns, cities, and metropolises built for them.
 
 ## The Urban Grid[[TheUrbanGrid]]
 
-The Urban Grid presents a simple graphical representation of a settlement. The grid divides a settlement into 9 large districts (blocks) arranged in a 3-by-3 square. Each district itself comprises 4 individual neighborhoods (lots) arranged in a 2-by-2 square. It is these neighborhood lots in which you’ll build structures to improve your settlement.
+The Urban Grid presents a simple graphical representation of a <<settlement|Settlement-Rules>>. The grid divides a <<settlement|Settlement-Rules>> into 9 large districts (blocks) arranged in a 3-by-3 square. Each district itself comprises 4 individual neighborhoods (lots) arranged in a 2-by-2 square. It is these neighborhood lots in which you’ll build <<structures|Settlement-Structures>> to improve your <<settlement|Settlement-Rules>>.
 
-While the Urban Grid diagrams your settlement as a square, this is simply an organizational abstraction—it doesn’t mean that your settlements are literally square. If it helps your sense of verisimilitude, feel free to cut up the Urban Grid and arrange blocks of four lots in any shape you wish. For a city hugging the shores of a great bay, you could draw out the bay and simply paste the blocks in a long row lining the coastline, or in any other arrangement that suits your taste.
+While the Urban Grid diagrams your <<settlement|Settlement-Rules>> as a square, this is simply an organizational abstraction—it doesn’t mean that your <<settlements|Settlement-Rules>> are literally square. If it helps your sense of verisimilitude, feel free to cut up the Urban Grid and arrange blocks of four lots in any shape you wish. For a city hugging the shores of a great bay, you could draw out the bay and simply paste the blocks in a long row lining the coastline, or in any other arrangement that suits your taste.
 
-Though the Urban Grid depicts 9 blocks for each settlement, the number of blocks in which you can build is limited by the settlement’s category: a village consists of only a single block (and can thus host a maximum of only 4 lots of structures), while a city can expand to all 9 blocks (and can host up to 36 lots of structures). It’s even possible for your settlement to become a metropolis, expanding to more than one Urban Grid! (See Settlement Types for complete details of settlement categories.)
+Though the Urban Grid depicts 9 blocks for each <<settlement|Settlement-Rules>>, the number of blocks in which you can build is limited by the <<settlement’s|Settlement-Rules>> category: a village consists of only a single block (and can thus host a maximum of only 4 lots of <<structures|Settlement-Structures>>), while a city can expand to all 9 blocks (and can host up to 36 lots of <<structures|Settlement-Structures>>). It’s even possible for your <<settlement|Settlement-Rules>> to become a metropolis, expanding to more than one Urban Grid! (See <<Settlement Types|Settlement-Rules#SettlementTypes>> for complete details of <<settlement|Settlement-Rules>> categories.)
 
 ### Urban Grid Borders[[UrbanGridBorders]]
 
-The four sides of the Urban Grid are where you record the types of borders your settlement has.
+The four sides of the <<Urban Grid|Settlement-Rules#TheUrbanGrid>> are where you record the types of borders your <<settlement|Settlement-Rules>> has.
 
-**Land Borders** By default, all of your settlement’s borders are unremarkable transitions from urban to hinterland—these are known as Land Borders.
-You take a cumulative –1 item penalty on Trade checks for each settlement in your kingdom that has no Land Borders, unless it has at least one Water Border with a Bridge.
+[[LandBorder]]**Land Borders** By default, all of your <<settlement’s|Settlement-Rules>> borders are unremarkable transitions from urban to hinterland—these are known as Land Borders.
+You take a cumulative –1 item penalty on Trade checks for each <<settlement|Settlement-Rules>> in your kingdom that has no Land Borders, unless it has at least one Water Border with a <<Bridge|Kingdom-Rules#Bridge>>.
 
-**Water Borders** When you place a settlement in a hex that has lake, river, or swamp terrain, you can locate it so that it has Water Borders. Water Borders provide natural defenses to your settlement during Warfare, and some structures can only be constructed in lots adjacent to Water Borders. However, crossing Water Borders that lack Bridges takes a long time (see Navigating an Urban Grid below).
-If a settlement has only Water Borders, it is on an island; until you build at least one Bridge, that settlement’s influence is 0.
+[[WaterBorder]]**Water Borders** When you place a <<settlement|Settlement-Rules>> in a hex that has lake, river, or swamp terrain, you can locate it so that it has Water Borders. Water Borders provide natural defenses to your <<settlement|Settlement-Rules>> during Warfare, and some <<structures|Settlement-Structures>> can only be constructed in lots adjacent to Water Borders. However, crossing Water Borders that lack <<Bridges|Settlement-Structures#Bridge>> takes a long time (see <<Navigating an Urban Grid|Settlement-Rules#TheUrbanGrid>> below).
+If a <<settlement|Settlement-Rules>> has only Water Borders, it is on an island; until you build at least one <<Bridge|Kingdom-Rules#Bridge>>, that <<settlement’s|Settlement-Rules>> <<influence|Settlement-Rules#Influence>> is 0.
 
-**Walled Borders** Building Walls on your borders boosts your settlement’s defense in certain events and in Warfare.
+**Walled Borders** Building <<Walls|Settlement-Structures#WallWooden>> on your borders boosts your <<settlement’s|Settlement-Rules>> defense in certain events and in Warfare.
 
 ### Navigating an Urban Grid[[NavigatingAnUrbanGrid]]
 
-You can simulate travel in a settlement using the Urban Grid to approximate distances. Since moving through a settlement requires a character to follow twisting roads, navigate crowds, or endure minor distractions along the way, it takes 15 minutes to move from one lot to an adjacent lot, or to cross a border (including exiting the settlement). If the settlement has Paved Streets, this travel time is reduced to 5 minutes. Crossing a Water Border that doesn’t have a Bridge takes an hour.
+You can simulate travel in a <<settlement|Settlement-Rules>> using the <<Urban Grid|Settlement-Rules#TheUrbanGrid>> to approximate distances. Since moving through a <<settlement|Settlement-Rules>> requires a character to follow twisting roads, navigate crowds, or endure minor distractions along the way, it takes 15 minutes to move from one lot to an adjacent lot, or to cross a border (including exiting the <<settlement|Settlement-Rules>>). If the <<settlement|Settlement-Rules>> has <<Paved Streets|Settlement-Structures#PavedStreets>>, this travel time is reduced to 5 minutes. Crossing a <<Water Border|Settlement-Rules#WaterBorder>> that doesn’t have a <<Bridge|Kingdom-Rules#Bridge>> takes an hour.
 
 ## Settlement Types[[SettlementTypes]]
 
-As your kingdom levels up and your settlements grow, a settlement’s type can change, providing different benefits and costs to your kingdom.
+As your kingdom levels up and your <<settlements|Settlement-Rules>> grow, a <<settlement’s|Settlement-Rules>> type can change, providing different benefits and costs to your kingdom.
 
-Size Category | Blocks | Consumption | Max Item Bonus | Influence[[SettlementTypesTable]]
+Size Category | Blocks | <<Consumption|Settlement-Rules#Consumption>> | <<Max Item Bonus|Settlement-Rules#MaximumItemBonus>> | <<Influence|Settlement-Rules#Influence>>[[SettlementTypesTable]]
 :---: | :---: | :---: | :---: | :---:
 Village (1st) | 1 | 1 | +1 | 0 hexes
 Town (3rd) | 4 | 2 | +1 | 1 hex
@@ -39,56 +39,55 @@ Metropolis (15th) | 10+ | 6 | +3 | 3 hexes
 
 ### Size[[Size]]
 
-This indicates the type of settlement, with the minimum kingdom level to support such a settlement in parenthesis.
+This indicates the type of <<settlement|Settlement-Rules>>, with the minimum kingdom level to support such a <<settlement|Settlement-Rules>> in parenthesis.
 
-Your capital behaves slightly differently. It is allowed to grow one (and only one) size category beyond the normal level restrictions. This does not increase the Maximum Item Bonus or Influence of the Capital until the normal level restrictions are met. In addition, the Capital's influence has a minimum of 1.
+[[Capital]]Your <<capital|Settlement-Rules#Capital>> behaves slightly differently. It is allowed to grow one (and only one) size category beyond the normal level restrictions. This does not increase the <<Maximum Item Bonus|Settlement-Rules#MaximumItemBonus>> or <<Influence|Settlement-Rules#Influence>> of the <<Capital|Settlement-Rules#Capital>> until the normal level restrictions are met. In addition, the <<Capital’s|Settlement-Rules#Capital>> <<influence|Settlement-Rules#Influence>> has a minimum of 1.
 
-**Village** Settlements start as villages, consisting of a single block of 4 lots. When you Build a Structure in a lot, you must select a lot in that block.
+[[Village]]**Village** <<Settlements|Settlement-Rules>> start as villages, consisting of a single block of 4 lots. When you <<Build a Structure|Kingdom-Actions#BuildStructure>> in a lot, you must select a lot in that block.
 
-**Town** Once your kingdom is 3rd level and you’ve filled all four lots in your village, as long as your settlement is not Overcrowded, the next time you Build a Structure in a lot, you may choose a lot in any block adjacent to your current block. As you do so, your village becomes a town. A town consists of 2 to 4 blocks of 4 lots each. The blocks must be contiguous, but they need not be a square—they could form a T, L, or S shape if you like. When your kingdom gains its first town, gain 60 kingdom XP as a milestone award.
+[[Town]]**Town** Once your kingdom is 3rd level and you’ve filled all four lots in your village, as long as your <<settlement|Settlement-Rules>> is not <<Overcrowded|Settlement-Structures#ResidentialLotsAndOvercrowding>>, the next time you <<Build a Structure|Kingdom-Actions#BuildStructure>> in a lot, you may choose a lot in any block adjacent to your current block. As you do so, your <<village|Settlement-Rules#Village>> becomes a town. A town consists of 2 to 4 blocks of 4 lots each. The blocks must be contiguous, but they need not be a square—they could form a T, L, or S shape if you like. When your kingdom gains its first town, gain 60 kingdom <<XP as a milestone award|Kingdom-Turn#MilestoneXPAwards>>.
 
-**City** Once your kingdom is 9th level and you’ve filled in at least two lots in each of your town’s 4 blocks, if your settlement is not Overcrowded, you may choose a lot anywhere on the Urban Grid when you Build a Structure in a lot. The first time you do so, the town transitions into a city. When your kingdom gains its first city, gain 80 kingdom XP as a milestone award.
+[[City]]**City** Once your kingdom is 9th level and you’ve filled in at least two lots in each of your <<town’s|Settlement-Rules#Town>> 4 blocks, if your <<settlement|Settlement-Rules>> is not <<Overcrowded|Settlement-Structures#ResidentialLotsAndOvercrowding>>, you may choose a lot anywhere on the <<Urban Grid|Settlement-Rules#TheUrbanGrid>> when you <<Build a Structure|Kingdom-Actions#BuildStructure>> in a lot. The first time you do so, the town transitions into a city. When your kingdom gains its first city, gain 80 kingdom <<XP as a milestone award|Kingdom-Turn#MilestoneXPAwards>>.
 
-**Metropolis** When your kingdom reaches 15th level and you have filled at least two lots on each block in your city, if your settlement is not Overcrowded, you may expand into a metropolis by adding a second Urban Grid. (You may instead continue filling in the remaining lots and remain a city.) At this point, you can place new structures into any lot you wish in the newly added Urban Grid. You can add additional Urban Grids each time you have built at least two lots of structures in every available block and are not Overcrowded, but there are no further settlement types beyond metropolis to achieve. When your kingdom gains its first metropolis, gain 120 kingdom XP as a milestone award.
+[[Metropolis]]**Metropolis** When your kingdom reaches 15th level and you have filled at least two lots on each block in your <<city|Settlement-Rules#City>>, if your <<settlement|Settlement-Rules>> is not <<Overcrowded|Settlement-Structures#ResidentialLotsAndOvercrowding>>, you may expand into a metropolis by adding a second <<Urban Grid|Settlement-Rules#TheUrbanGrid>>. (You may instead continue filling in the remaining lots and remain a city.) At this point, you can place new <<structures|Settlement-Structures>> into any lot you wish in the newly added <<Urban Grid|Settlement-Rules#TheUrbanGrid>>. You can add additional <<Urban Grids|Settlement-Rules#TheUrbanGrid>> each time you have built at least two lots of <<structures|Settlement-Structures>> in every available block and are not <<Overcrowded|Settlement-Structures#ResidentialLotsAndOvercrowding>>, but there are no further <<settlement|Settlement-Rules>> types beyond metropolis to achieve. When your kingdom gains its first metropolis, gain 120 kingdom <<XP as a milestone award|Kingdom-Turn#MilestoneXPAwards>>.
 
 ### Blocks[[Blocks]]
 
-This indicates the maximum number of blocks the settlement can occupy in an Urban Grid.
+This indicates the maximum number of blocks the <<settlement|Settlement-Rules>> can occupy in an <<Urban Grid|Settlement-Rules#TheUrbanGrid>>.
 
 ### Consumption[[Consumption]]
 
-Consumption is a numerical value that indicates the Food commodities the settlement requires in order to remain viable and functional. The number given here shows the settlement’s base consumption; specific structures in the settlements can increase or decrease its Consumption.
+<<Consumption|Settlement-Rules#Consumption>> is a numerical value that indicates the Food <<commodities|Kingdom-Rules#Commodities>> the <<settlement|Settlement-Rules>> requires in order to remain viable and functional. The number given here shows the <<settlement’s|Settlement-Rules>> base <<consumption|Settlement-Rules#Consumption>>; specific <<structures|Settlement-Structures>> in the <<settlements|Settlement-Rules>> can increase or decrease its <<Consumption|Settlement-Rules#Consumption>>.
 
 ### Maximum Item Bonus[[MaximumItemBonus]]
-Many structures within a settlement grant an item bonus to specific kingdom activities. Normally, item bonuses do not stack, but if you build multiple structures that grant an Item Bonus to a specific Kingdom Skill Activity, their item bonuses stack up to this limit.
 
-For example, if you build a Brewery and a Marketplace (each of which grants a +1 Item Bonus to Establish Trade Agreement) in a village (with a maximum item bonus of +1), you can only apply one of the item bonuses to Establish Trade Agreement. However, if they were built in a city (with a maximum item bonus of +2), you could apply both item bonuses to the activity.
+Many <<structures|Settlement-Structures>> within a <<settlement|Settlement-Rules>> grant an item bonus to specific kingdom activities. Normally, item bonuses do not stack, but if you build multiple <<structures|Settlement-Structures>> that grant an Item Bonus to a specific Kingdom Skill Activity, their item bonuses stack up to this limit.
+
+For example, if you build a <<Brewery|Settlement-Structures#Brewery>> and a <<Marketplace|Settlement-Structures#Marketplace>> (each of which grants a +1 Item Bonus to <<Establish Trade Agreement|Kingdom-Actions#EstablishTradeAgreement>>) in a <<village|Settlement-Rules#Village>> (with a maximum item bonus of +1), you can only apply one of the item bonuses to <<Establish Trade Agreement|Kingdom-Actions#EstablishTradeAgreement>>. However, if they were built in a <<city|Settlement-Rules#City>> (with a maximum item bonus of +2), you could apply both item bonuses to the activity.
 
 ### Influence[[Influence]]
 
-A settlement’s influence area is the area around a settlement where meaningful economic and productive activity can occur, as well as where the settlement’s beneficial effects extend. The numeric value indicates the number of hexes that the settlement’s influence extends. Thus, a village only influences the hex it’s located in, while a town influences all adjacent hexes. If a settlement has only Water Borders and no Bridges, that settlement’s influence is 0 regardless of its settlement type.
+A <<settlement’s|Settlement-Rules>> influence area is the area around a <<settlement|Settlement-Rules>> where meaningful economic and productive activity can occur, as well as where the <<settlement’s|Settlement-Rules>> beneficial effects extend. The numeric value indicates the number of hexes that the <<settlement’s|Settlement-Rules>> influence extends. Thus, a <<village|Settlement-Rules#Village>> only influences the hex it’s located in, while a <<town|Settlement-Rules#Town>> influences all adjacent hexes. If a <<settlement|Settlement-Rules>> has only <<Water Borders|Settlement-Rules#WaterBorder>> and no <<Bridges|Settlement-Structures#Bridge>>, that <<settlement’s|Settlement-Rules>> influence is 0 regardless of its <<settlement|Settlement-Rules>> type.
 
-Certain activities and the impact of some kingdom events are limited to a settlement’s influence. Structures in a settlement that provide a specific item bonus do so to all of the claimed hexes influenced by their settlement. (Structures in your capital city provide that bonus to all of the kingdom’s claimed hexes, regardless of the capital’s influence.)
+You can use the <<Civic activity|Kingdom-Actions#CivicPhase>> <<Supply Network|Kingdom-Actions#SupplyNetwork>> to add additional hexes to a <<settlement’s|Settlement-Rules>> influence. The <<settlement|Settlement-Rules>>'s size category limits the maximum number of hexes that can be added in this way. A <<village|Settlement-Rules#Village>> can only be connected to up to 2 hexes outside its normal <<influence|Settlement-Rules#Influence>>, a <<town|Settlement-Rules#Town>> can connect to up to 4, a <<city|Settlement-Rules#City>> can connect to up to 6, and a <<metropolis|Settlement-Rules#Metropolis>> can connect to up to 8. When a hex gained through this activity enters the <<settlement|Settlement-Rules>>'s normal influence (such as when the <<settlement|Settlement-Rules>>'s size increases), it no longer counts against this limit.
 
-You can use the Civic activity Supply Network to add additional hexes to a settlement’s influence. The settlement's size category limits the maximum number of hexes that can be added in this way. A village can only be connected to up to 2 hexes outside its normal influence, a town can connect to up to 4, and a city can connect to up to 6, and a metropolis can connect to up to 8. When a hex gained through this activity enters the settlement's normal influence (such as when the settlement's size increases), it no longer counts against this limit.
-
-Hexes not claimed by your kingdom are never part of your settlements’ influence areas, even if they are within the distance noted above. A hex can be influenced by multiple settlements.
+Hexes not <<claimed|Kingdom-Actions#ClaimHex>> by your kingdom are never part of your <<settlements’|Settlement-Rules>> influence areas, even if they are within the distance noted above. A hex can be influenced by multiple <<settlements|Settlement-Rules>>.
 
 ## Market Levels[[MarketLevels]]
 
-As a settlement gains structures, it might increase one or more market levels of a settlement. There are eight market types, each of which expands which items are readily available to buy (and sell) in a settlement.
+As a <<settlement|Settlement-Rules>> gains <<structures|Settlement-Structures>>, it might increase one or more market levels of a <<settlement|Settlement-Rules>>. There are eight market types, each of which expands which items are readily available to buy (and sell) in a <<settlement|Settlement-Rules>>.
 
-The eight market types and what types of items it affects are in the table below. The GM is the final arbiter of what market an item would be in. Common items of the market level or lower can be bought or sold  the settlement.
+The eight market types and what types of items it affects are in the <<table below|#MarketLevelsTable>>. The GM is the final arbiter of what market an item would be in. Common items of the market level or lower can be bought or sold  the <<settlement|Settlement-Rules>>.
 
-Your settlement’s market level may be temporarily or permanently adjusted by kingdom events or actions. A market level can exceed the kingdom's level, but not by more than 4 (for example at kingdom level 5, no market can be higher than level 9). No more than two buildings of the same type can affect a settlement's market level.
+Your <<settlement’s|Settlement-Rules>> market level may be temporarily or permanently adjusted by kingdom events or actions. A market level can exceed the kingdom's level, but not by more than 4 (for example at kingdom level 5, no market can be higher than level 9). No more than two buildings of the same type can affect a <<settlement|Settlement-Rules>>'s market level, or one if the building is an Edifice.
 
 Market | Item Examples[[MarketLevelsTable]]
 --- | ---
 Alchemical | alchemical items, plus magical oils, potions, dusts, and powders
 Arcane | items and spellcasting services related to arcane spells and classes
-Contraband | any items that are illegal or considered socially unacceptable (often including drugs, poisons, illicit services, and items whose alignment opposes the settlement’s)
+Contraband | any items that are illegal or considered socially unacceptable (often including drugs, poisons, illicit services, and items whose alignment opposes the <<settlement’s|Settlement-Rules>>)
 Divine | items and spellcasting services related to divine spells and classes (including holy and unholy water and symbols)
-Luxuries | art objects, gems, jewelry, furs, spices, and similar rare commodities
+Luxuries | art objects, gems, jewelry, furs, spices, and similar rare <<commodities|Kingdom-Rules#Commodities>>
 Martial | armor, shields, weapons, ammunition (including runes)
 Occult | items and spellcasting services related to occult spells and classes (including magical musical instruments)
 Primal | items and spellcasting services related to primal spells and classes (including snares)

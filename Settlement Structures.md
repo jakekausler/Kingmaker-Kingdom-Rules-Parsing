@@ -1,60 +1,60 @@
 # Settlement Structures[[SettlementStructures]]
 
-You build structures using the Build Structure activity during the Civic Activities step of the Activity phase of the Kingdom turn.
+You build <<structures|Settlement-Structures>> using the <<Build Structure|Kingdom-Actions#BuildStructure>> activity during the <<Civic Activities|Kingdom-Actions#CivicPhase>> step of the <<Activity phase|Kingdom-Turn#ActivityPhase>> of the Kingdom turn.
 
-When you build in a lot within one of your settlements, you’re rarely literally constructing a single building. While an arena or cathedral might stand alone as a towering edifice, most lots represent a number of buildings whose focus is to support the type of improvement that lot supports. For example, a brewery could represent a collection of brewers and bottlers and the families who support them, while a luxury merchant would represent several specialized stores. Even sprawling, sizable improvements like dumps, cemeteries, or parks might include nearby dwellings or cottages for those who tend and manage the area or live along its margins.
+When you build in a lot within one of your <<settlements|Settlement-Rules>>, you’re rarely literally constructing a single building. While an <<arena|Settlement-Structures#Arena>> or <<cathedral|Settlement-Structures#Cathedral>> might stand alone as a towering edifice, most lots represent a number of buildings whose focus is to support the type of improvement that lot supports. For example, a <<brewery|Settlement-Structures#Brewery>> could represent a collection of brewers and bottlers and the families who support them, while a <<luxury merchant|Settlement-Structures#LuxuryStore>> would represent several specialized stores. Even sprawling, sizable improvements like <<dumps|Settlement-Structures#Dump>>, <<cemeteries|Settlement-Structures#Cemetery>>, or <<parks|Settlement-Structures#Park>> might include nearby dwellings or cottages for those who tend and manage the area or live along its margins.
 
-**Residential Lots and Overcrowding** While almost every structure presumably includes a small amount of lodging, you need to build Residential lots in order to give your citizens enough places to live. You do so by building a structure that has the Residential trait in a chosen lot. Settlements require a number of Residential lots equal to the number of blocks that have any structures built within them, although these residential lots need not be located one per block. For example, when a village expands to a town, it initially occupies 2 blocks. It needs 2 Residential lots in total among those 2 blocks, either both in one block or one in each block. A settlement without this minimum number of Residential lots is Overcrowded and generates 1 Unrest for the kingdom during the Upkeep phase of each Kingdom turn.
+[[ResidentialLotsAndOvercrowding]]**Residential Lots and Overcrowding** While almost every <<structure|Settlement-Structures>> presumably includes a small amount of lodging, you need to build Residential lots in order to give your citizens enough places to live. You do so by building a <<structure|Settlement-Structures>> that has the Residential trait in a chosen lot. <<Settlements|Settlement-Rules>> require a number of Residential lots equal to the number of blocks that have any <<structures|Settlement-Structures>> built within them, although these residential lots need not be located one per block. For example, when a village expands to a town, it initially occupies 2 blocks. It needs 2 Residential lots in total among those 2 blocks, either both in one block or one in each block. A <<settlement|Settlement-Rules>> without this minimum number of Residential lots is Overcrowded and generates 1 <<Unrest|Kingdom-Rules#Unrest>> for the kingdom during the <<Upkeep phase|Kingdom-Turn#UpkeepPhase>> of each Kingdom turn.
 
-**Reduced to Rubble** It’s possible for structures in a settlement to be reduced to rubble by a failed attempt to Demolish a structure or a poor result from a kingdom event. When a structure is reduced to rubble, replace the lots the structure once occupied on the Urban Grid with rubble. Having rubble in a lot doesn’t itself impact a kingdom’s Unrest or other statistics negatively, but it does prevent you from building in those lots. You must Demolish that lot before you can build there again. When a single lot that contains part of a multi-lot structure is reduced to rubble, each of the lots that contained that structure are replaced with individual lots of rubble.
+**Reduced to Rubble** It’s possible for <<structures|Settlement-Structures>> in a <<settlement|Settlement-Rules>> to be reduced to <<rubble|Settlement-Structures#Rubble>> by a failed attempt to <<Demolish|Kingdom-Actions#Demolish>> a <<structure|Settlement-Structures>> or a poor result from a kingdom event. When a <<structure|Settlement-Structures>> is reduced to <<rubble|Settlement-Structures#Rubble>>, replace the lots the <<structure|Settlement-Structures>> once occupied on the <<Urban Grid|Settlement-Rules#TheUrbanGrid>> with <<rubble|Settlement-Structures#Rubble>>. Having <<rubble|Settlement-Structures#Rubble>> in a lot doesn’t itself impact a kingdom’s <<Unrest|Kingdom-Rules#Unrest>> or other statistics negatively, but it does prevent you from building in those lots. You must <<Demolish|Kingdom-Actions#Demolish>> that lot before you can build there again. When a single lot that contains part of a multi-lot <<structure|Settlement-Structures>> is reduced to <<rubble|Settlement-Structures#Rubble>>, each of the lots that contained that <<structure|Settlement-Structures>> are replaced with individual lots of <<rubble|Settlement-Structures#Rubble>>.
 
 ## Structure Descriptions[[StructureDescriptions]]
 
-Structures are described in the following format.
+<<Structures|Settlement-Structures>> are described in the following format.
 
 item(
 # STRUCTURE NAME[[ExampleStructure]]
 ## LEVEL
 -
-; Building
-A structure’s level indicates the minimum kingdom level required to build it. Each structure has traits that convey its properties.
-**Building** indicates the structure is a collection of indoor sites.
+A <<structure’s|Settlement-Structures>> level indicates the minimum kingdom level required to build it. Each <<structure|Settlement-Structures>> has traits that convey its properties.
+**Building** indicates the <<structure|Settlement-Structures>> is a collection of indoor sites.
 
-**Yard** indicates the structure is primarily an outdoor site.
+**Yard** indicates the <<structure|Settlement-Structures>> is primarily an outdoor site.
 
-**Infrastructure** indicates that the structure benefits all lots in an Urban Grid without occupying a lot. (For a metropolis, this means you’ll need to build Infrastructure separately for each Urban Grid that makes up the settlement.)
+**Infrastructure** indicates that the <<structure|Settlement-Structures>> benefits all lots in an <<Urban Grid|Settlement-Rules#TheUrbanGrid>> without occupying a lot. (For a <<metropolis|Settlement-Rules#Metropolis>>, this means you’ll need to build Infrastructure separately for each <<Urban Grid|Settlement-Rules#TheUrbanGrid>> that makes up the <<settlement|Settlement-Rules>>.)
 
-**Edifice** structures grants its benefits to a settlement only once; if you build that structure an additional time in the same settlement, it’s purely cosmetic.
+**Edifice** <<structures|Settlement-Structures>> grants its benefits to a <<settlement|Settlement-Rules>> only once; if you build that <<structure|Settlement-Structures>> an additional time in the same <<settlement|Settlement-Rules>>, it’s purely cosmetic.
 
-**Residential** structures help house the settlement’s citizens; a settlement requires at least one Residential lot per block to avoid being Overcrowded.
+**Residential** <<structures|Settlement-Structures>> help house the <<settlement’s|Settlement-Rules>> citizens; a <<settlement|Settlement-Rules>> requires at least one Residential lot per block to avoid being <<Overcrowded|Settlement-Structures#ResidentialLotsAndOvercrowding>>.
 
-**Fame** indicates that the building generates one Fame when the building is constructed, but it also increases the settlement's Consumption by 1.
-A short textual description rounds out the top of the structure stat block.
+**Fame** indicates that the building generates one <<Fame|Kingdom-Rules#FameAndInfamy>> when the building is constructed, but it also increases the <<settlement’s|Settlement-Rules>> <<Consumption|Settlement-Rules#Consumption>> by 1.
+
+A short textual description rounds out the top of the <<structure|Settlement-Structures>> stat block.
 -
-**Lots** The number of contiguous lots that the structure occupies on the Urban Grid; **Cost** The cost in Commodities (if any) you must spend before attempting the Build Structure check.
+**Lots** The number of contiguous lots that the <<structure|Settlement-Structures>> occupies on the <<Urban Grid|Settlement-Rules#TheUrbanGrid>>; **Cost** The cost in <<Commodities|Kingdom-Rules#Commodities>> (if any) you must spend before attempting the <<Build Structure|Kingdom-Actions#BuildStructure>> check.
 
-**Monthly Cost** The number of RP you must spend per turn to advance production, and how many turns you must spend them before the building applies its effects and bonuses. You advance structure production during the Upkeep phase of a kingdom turn, and you can advance as many as you choose a single month during this time. When the cost has been paid the listed number of times, the structure is complete.
-The cost is not paid on the turn you use the Build Structure activity unless the structure takes 0 months. In this case, you can choose to pay to complete the structure during the Structure Production phase of the same turn.
-If you have not advanced all your structures that are currently under construction during the Structure Production phase, you might gain unrest. You gain 1 unrest for each structure that you did not advance above the number of settlements. For example, if you had two settlements and you did not advance five structures that were under construction, you would gain 3 unrest. This represents your citizens worrying you are undergoing more work than the kingdom can afford.
+**Monthly Cost** The number of <<RP|Kingdom-Rules#ResourcePoints>> you must spend per turn to advance production, and how many turns you must spend them before the building applies its effects and bonuses. You advance <<structure|Settlement-Structures>> production during the <<Upkeep phase|Kingdom-Turn#UpkeepPhase>> of a kingdom turn, and you can advance as many as you choose a single month during this time. When the cost has been paid the listed number of times, the <<structure|Settlement-Structures>> is complete.
+The cost is not paid on the turn you use the <<Build Structure|Kingdom-Actions#BuildStructure>> activity unless the <<structure|Settlement-Structures>> takes 0 months. In this case, you can choose to pay to complete the <<structure|Settlement-Structures>> during the <<Structure Production|Kingdom-Turn#StructuresAdvancement>> phase of the same turn.
+If you have not advanced all your <<structures|Settlement-Structures>> that are currently under construction during the <<Structure Production|Kingdom-Turn#StructuresAdvancement>> phase, you might gain <<unrest|Kingdom-Rules#Unrest>>. You gain 1 <<unrest|Kingdom-Rules#Unrest>> for each <<structure|Settlement-Structures>> that you did not advance above the number of <<settlements|Settlement-Rules>>. For example, if you had two <<settlements|Settlement-Rules>> and you did not advance five <<structures|Settlement-Structures>> that were under construction, you would gain 3 <<unrest|Kingdom-Rules#Unrest>>. This represents your citizens worrying you are undergoing more work than the kingdom can afford.
 
-**XP** Lists the XP value of the structure. At the end of each turn, you receive XP for the highest XP building you began construction on; **Population** Represents the estimated population increase adding this structure. This is purely cosmetic; **Size** The minimum settlement size (village, town, city) in which this structure can be built.
+**XP** Lists the XP value of the <<structure|Settlement-Structures>>. At the end of each turn, you <<receive XP for the highest XP building you began construction on|Kingdom-Turn#StructureXPAwards>>; **Population** Represents the estimated population increase adding this <<structure|Settlement-Structures>>. This is purely cosmetic; **Size** The minimum <<settlement size|Settlement-Rules#Size>> (<<village|Settlement-Rules#Village>>, <<town|Settlement-Rules#Town>>, or <<city|Settlement-Rules#City>>) in which this <<structure|Settlement-Structures>> can be built.
 
-**Market Bonus** The amount this structure adds to the settlement's market level in one or more markets. Some structures will let you choose one or more markets or have exceptions. If you can choose more than one market, you cannot choose the same market for the same structure more than once.
+**Market Bonus** The amount this <<structure|Settlement-Structures>> adds to the <<settlement|Settlement-Rules>>'s <<market level|Settlement-Rules#MarketLevels>> in one or more markets. Some <<structures|Settlement-Structures>> will let you choose one or more markets or have exceptions. If you can choose more than one market, you cannot choose the same market for the same <<structure|Settlement-Structures>> more than once.
 
-**Construction** This entry lists the required skill, proficiency rank, and DC for the Build Structure check.
+**Construction** This entry lists the required skill, proficiency rank, and DC for the <<Build Structure|Kingdom-Actions#BuildStructure>> check.
 
-**Upgrade From/Upgrade To** Some structures can be upgraded into a more advanced form of the existing structure, such as upgrading a Shrine into a Temple. If you upgrade a structure, subtract the RP and Commodity cost used to build the original structure from the cost of the new structure. When the new structure is complete, its effects replace those of the previous structure. You can’t upgrade a structure to one that occupies more lots if there isn’t space in the block for the new structure’s size. (You do not need to build the lesser form of a structure before you build the advanced form.)
+**Upgrade From/Upgrade To** Some <<structures|Settlement-Structures>> can be upgraded into a more advanced form of the existing <<structure|Settlement-Structures>>, such as upgrading a <<Shrine|Settlement-Structures#Shrine>> into a <<Temple|Settlement-Structures#Temple>>. If you upgrade a <<structure|Settlement-Structures>>, subtract the <<RP|Kingdom-Rules#ResourcePoints>> and <<Commodity|Kingdom-Rules#Commodities>> cost used to build the original <<structure|Settlement-Structures>> from the cost of the new <<structure|Settlement-Structures>>. When the new <<structure|Settlement-Structures>> is complete, its effects replace those of the previous <<structure|Settlement-Structures>>. You can’t upgrade a <<structure|Settlement-Structures>> to one that occupies more lots if there isn’t space in the block for the new <<structure’s|Settlement-Structures>> size. (You do not need to build the lesser form of a <<structure|Settlement-Structures>> before you build the advanced form.)
 
-**Item Bonus** This entry indicates any item bonuses the structure grants to activities made within the settlement’s influence. These bonuses are item bonuses, but if you build multiple structures that grant an Item Bonus to a specific Kingdom Activity, their item bonuses stack up to the settlement's Maximum Item Bonus.
+**Item Bonus** This entry indicates any <<item bonuses|Settlement-Rules#MaximumItemBonus>> the <<structure|Settlement-Structures>> grants to activities made within the <<settlement’s|Settlement-Rules>> <<influence|Settlement-Rules#Influence>>. These bonuses are <<item bonuses|Settlement-Rules#MaximumItemBonus>>, but if you build multiple <<structures|Settlement-Structures>> that grant an <<Item Bonus|Settlement-Rules#MaximumItemBonus>> to a specific Kingdom Activity, their <<item bonuses|Settlement-Rules#MaximumItemBonus>> stack up to the <<settlement’s|Settlement-Rules>> <<Maximum Item Bonus|Settlement-Rules#MaximumItemBonus>>.
 
-**Ruin** Some structures negatively impact society. If this structure does so, it will increase one or more of your kingdom’s Ruins when constructed; this increase only happens once, when the structure is built. Increases to Ruin in this way aren’t removed if the structure is later demolished.
+**Ruin** Some <<structures|Settlement-Structures>> negatively impact society. If this <<structure|Settlement-Structures>> does so, it will increase one or more of your kingdom’s <<Ruins|Kingdom-Rules#Ruin>> when constructed; this increase only happens once, when the <<structure|Settlement-Structures>> is built. Increases to <<Ruin|Kingdom-Rules#Ruin>> in this way aren’t removed if the <<structure|Settlement-Structures>> is later <<demolished|Kingdom-Actions#Demolish>>.
 
-**Effect** All additional game effects the structure grants to your kingdom are listed here. In many cases, these effects grant item bonuses to PCs while they are in the settlement, but unlike those granted by the Item Bonus above, item bonuses found in this section of the stat block do not stack with other item bonuses. Unless stated otherwise, effects in this section apply only within this settlement; they do not apply to areas influenced by this settlement.
+**Effect** All additional game effects the <<structure|Settlement-Structures>> grants to your kingdom are listed here. In many cases, these effects grant item bonuses to PCs while they are in the <<settlement|Settlement-Rules>>, but unlike those granted by the <<Item Bonus|Settlement-Rules#MaximumItemBonus>> above, item bonuses found in this section of the stat block do not stack with other item bonuses. Unless stated otherwise, effects in this section apply only within this <<settlement|Settlement-Rules>>; they do not apply to areas <<influenced|Leadership-Roles#KeyAbility>> by this <<settlement|Settlement-Rules>>.
 )
 
 ## Settlement Structures[[SettlementStructures]]
 
-Presented below are stat blocks for a wide range of structures that serve a variety of purposes in settlements, both to bolster kingdom statistics and PC resources. Encourage your PCs to come up with flavorful specific names for individual structures they create!
+Presented below are stat blocks for a wide range of <<structures|Settlement-Structures>> that serve a variety of purposes in <<settlements|Settlement-Rules>>, both to bolster kingdom statistics and PC resources. Encourage your PCs to come up with flavorful specific names for individual <<structures|Settlement-Structures>> they create!
 
 
 item(
@@ -75,13 +75,13 @@ An academy gives your citizens—and the PCs themselves—an institution where a
 
 **Construction** Scholarship (expert) DC 27
 
-**Upgrade From** library
+**Upgrade From** <<library|Settlement-Structures#Library>>
 
-**Upgrade To** military academy, university
+**Upgrade To** <<military academy|Settlement-Structures#MilitaryAcademy>>, <<university|Settlement-Structures#University>>
 
-**Item Bonus** +2 item bonus to Creative Solution
+**Item Bonus** +2 item bonus to <<Creative Solution|Kingdom-Actions#CreativeSolution>>
 
-**Effect** While in a settlement with an Academy, you gain a +2 item bonus to Lore checks made to Recall Knowledge while Investigating, to all checks made while Researching (Gamemastery Guide 154), and to Decipher Writing.
+**Effect** While in a <<settlement|Settlement-Rules>> with an Academy, you gain a +2 item bonus to Lore checks made to <<Recall Knowledge|https://2e.aonprd.com/Skills.aspx?ID=24&General=true>> while Investigating, to all checks made while <<Researching|https://2e.aonprd.com/Rules.aspx?ID=3045>>, and to <<Decipher Writing|https://2e.aonprd.com/Skills.aspx?ID=20&General=true>>.
 )
 
 item(
@@ -100,9 +100,9 @@ A specialized tower suitable for raising and training hunting and message birds 
 
 **Construction** Wilderness (expert) DC 23
 
-**Item Bonus** +1 item bonus to Clandestine Business and Send Diplomatic Envoy
+**Item Bonus** +1 item bonus to <<Clandestine Business|Kingdom-Actions#ClandestineBusiness>> and <<Send Diplomatic Envoy|Kingdom-Actions#SendDiplomaticEnvoy>>
 
-        **Effect** If you have an aerie in the same city as a castle, garrison, keep, or watchtower, you gain a +1 item bonus on Defense checks made to resolve a Monster Activity event, or a +2 item bonus if the monsters involved are flying creatures
+**Effect** If you have an aerie in the same city as a <<castle|Settlement-Structures#Castle>>, <<garrison|Settlement-Structures#Garrison>>, <<keep|Settlement-Structures#Keep>>, or <<watchtower|Settlement-Structures#Watchtower>>, you gain a +1 item bonus on Defense checks made to resolve a Monster Activity event, or a +2 item bonus if the monsters involved are flying creatures
 )
 
 item(
@@ -110,7 +110,7 @@ item(
 ## Structure 3
 -
 ; Building
-An alchemy laboratory serves as a factory for alchemists and their apprentices for the crafting of potions, elixirs, and all manner of alchemical items. An infamous kingdom’s laboratory might specialize in poisons as well.
+An alchemy laboratory serves as a factory for alchemists and their apprentices for the crafting of potions, elixirs, and all manner of <<alchemical items|https://2e.aonprd.com/Traits.aspx?ID=528>>.
 -
 
 **Lots** 1; **Cost** 2 Ore, 5 Stone
@@ -123,13 +123,13 @@ An alchemy laboratory serves as a factory for alchemists and their apprentices f
 
 **Construction** Industry (trained) DC 16
 
-**Item Bonus** +1 item bonus to Demolish
+**Item Bonus** +1 item bonus to <<Demolish|Kingdom-Actions#Demolish>>
 
-**Effect** Checks attempted to Identify Alchemy in any settlement with at least one alchemy laboratory gain a +1 item bonus.
+**Effect** Checks attempted to <<Identify Alchemy|https://2e.aonprd.com/Actions.aspx?ID=2386>> in any <<settlement|Settlement-Rules>> with at least one alchemy laboratory gain a +1 item bonus.
 )
 
 item(
-# Arcanist’s Tower[[Arcanist’sTower]]
+# Arcanist’s Tower[[ArcanistsTower]]
 ## Structure 5
 -
 ; Building
@@ -146,9 +146,9 @@ An arcanist’s tower is a home and laboratory for an arcane spellcaster (usuall
 
 **Construction** Magic (trained) DC 20
 
-**Item Bonus** +1 item bonus to Magical Construction and Quell Unrest using Magic
+**Item Bonus** +1 item bonus to <<Magical Construction|Kingdom-Actions#MagicalConstruction>> and <<Quell Unrest|Kingdom-Actions#QuellUnrest>> using Magic
 
-**Effect** Checks made to Borrow an Arcane Spell or Learn a Spell in any settlement with at least one arcanist’s tower gain a +1 item bonus.
+**Effect** Checks made to <<Borrow an Arcane Spell|https://2e.aonprd.com/Actions.aspx?ID=2373>> or <<Learn a Spell|https://2e.aonprd.com/Skills.aspx?ID=23&General=true>> in any <<settlement|Settlement-Rules>> with at least one arcanist’s tower gain a +1 item bonus.
 )
 
 item(
@@ -156,7 +156,7 @@ item(
 ## Structure 9
 -
 ; Edifice,Fame,Yard
-An Arena is a large public structure, traditionally open to the air, surrounded by seating and viewing areas. It’s used for staging competitions, athletics, gladiatorial combats, and elaborate entertainments and spectacles.
+An Arena is a large public <<structure|Settlement-Structures>>, traditionally open to the air, surrounded by seating and viewing areas. It’s used for staging competitions, athletics, gladiatorial combats, and elaborate entertainments and spectacles.
 -
 
 **Lots** 4; **Cost** 6 Lumber, 12 Stone
@@ -167,9 +167,9 @@ An Arena is a large public structure, traditionally open to the air, surrounded 
 
 **Construction** Warfare (expert) DC 26
 
-**Item Bonus** +2 item bonus to Celebrate Holiday and to Warfare checks made to Quell Unrest
+**Item Bonus** +2 item bonus to <<Celebrate Holiday|Kingdom-Actions#CelebrateHoliday>> and to Warfare checks made to <<Quell Unrest|Kingdom-Actions#QuellUnrest>>
 
-**Effect** An arena lets you to retrain combat-themed feats more efficiently while in the settlement; doing so takes only 5 days rather than a week of downtime.
+**Effect** An arena lets you to retrain combat-themed feats more efficiently while in the <<settlement|Settlement-Rules>>; doing so takes only 5 days rather than a week of downtime.
 )
 
 item(
@@ -188,9 +188,9 @@ A conclave of representatives from all sectors of society, including representat
 
 **Construction** Statecraft (expert) DC 24
 
-**Item Bonus** +1 item bonus to New Leadership and Pledge of Fealty using Statecraft
+**Item Bonus** +1 item bonus to <<New Leadership|Kingdom-Actions#NewLeadership>> and <<Pledge of Fealty|Kingdom-Actions#PledgeOfFealty>> using Statecraft
 
-**Effect** When you use a Build Roads or Establish Farmland activity in a hex adjacent to a settlement with an assembly, or a Build Structure activity in a settlement with an assembly, you can take one kingdom activity of the same type in that settlement or a hex adjacent to it.
+**Effect** When you use a <<Build Roads|Kingdom-Actions#BuildRoads>> or <<Establish Farmland|Kingdom-Actions#EstablishFarmland>> activity in a hex adjacent to a <<settlement|Settlement-Rules>> with an assembly, or a <<Build Structure|Kingdom-Actions#BuildStructure>> activity in a <<settlement|Settlement-Rules>> with an assembly, you can take one kingdom activity of the same type in that <<settlement|Settlement-Rules>> or a hex adjacent to it.
 )
 
 item(
@@ -211,9 +211,9 @@ A bank is a secure building for storing valuables, granting loans, and collectin
 
 **Construction** Trade (trained) DC 20
 
-**Item Bonus** +1 item bonus to Capital Investments, Collect Taxes, and Tap Treasury
+**Item Bonus** +1 item bonus to <<Capital Investments|Kingdom-Actions#CapitalInvestment>>, <<Collect Taxes|Kingdom-Actions#CollectTaxes>>, and <<Tap Treasury|Kingdom-Actions#TapTreasury>>
 
-**Effect** The Capital Investment Leadership activity can be used only within the influence area of a settlement with a bank.
+**Effect** The <<Capital Investment|Kingdom-Actions#CapitalInvestment>> Leadership activity can be used only within the <<influence|Settlement-Rules#Influence>> area of a <<settlement|Settlement-Rules>> with a bank.
 )
 
 item(
@@ -234,7 +234,7 @@ A center for learning in every artistic form, including visual, musical, physica
 
 **Construction** Arts (expert) DC 26
 
-**Item Bonus** +2 item bonus to Rest and Relax using Arts and to Create a Masterpiece. While in a settlement with a Bardic college, you gain a +3 item bonus to Lore and Occultism checks made to Recall Knowledge while Investigating and to all art or music-related checks while Researching (see the Pathfinder Gamemastery Guide).
+**Item Bonus** +2 item bonus to <<Rest and Relax|Kingdom-Actions#RestAndRelax>> using Arts and to <<Create a Masterpiece|Kingdom-Actions#CreateAMasterpiece>>. While in a <<settlement|Settlement-Rules>> with a Bardic college, you gain a +3 item bonus to Lore and Occultism checks made to <<Recall Knowledge|https://2e.aonprd.com/Skills.aspx?ID=24&General=true>> while Investigating and to all art or music-related checks while <<Researching|https://2e.aonprd.com/Rules.aspx?ID=3045>>.
 )
 
 item(
@@ -256,7 +256,7 @@ Barracks are focused on housing and training guards, militia, soldiers, and mili
 
 **Upgrade To** garrison
 
-**Item Bonus** +1 item bonus to Garrison Army, Recover Army, or Recruit Army (see Appendix 3)
+**Item Bonus** +1 item bonus to <<Garrison Army|Kingdom-Actions#GarrisonArmy>>, <<Recover Army|Kingdom-Actions#RecoverArmy>>, or <<Recruit Army|Kingdom-Actions#RecruitArmy>>
 )
 
 item(
@@ -275,7 +275,7 @@ A public building for bathing, often with hot running water and mineral soaks, s
 
 **Construction** Engineering (trained) DC 16
 
-**Item Bonus** +1 item bonus to Provide Care and on Defense checks made to resolve a Plague event
+**Item Bonus** +1 item bonus to <<Provide Care|Kingdom-Actions#ProvideCare>> and on Defense checks made to resolve a Plague event
 )
 
 item(
@@ -283,7 +283,7 @@ item(
 ## Structure 1
 -
 ; Building
-A brewery is devoted to crafting alcohol, be it beer, wine, or spirits. This building can represent bottlers, vineyards, or even structures that produce nonalcoholic drinks.
+A brewery is devoted to crafting alcohol, be it beer, wine, or spirits. This building can represent bottlers, vineyards, or even <<structures|Settlement-Structures>> that produce nonalcoholic drinks.
 -
 
 **Lots** 1; **Cost** 2 Lumber
@@ -294,9 +294,9 @@ A brewery is devoted to crafting alcohol, be it beer, wine, or spirits. This bui
 
 **Construction** Agriculture DC 15
 
-**Item Bonus** +1 item bonus to Establish Trade Agreement
+**Item Bonus** +1 item bonus to <<Establish Trade Agreement|Kingdom-Actions#EstablishTradeAgreement>>
 
-**Effect** When you build a brewery, reduce Unrest by 1 as long as you have fewer than 4 breweries in the settlement at that time.
+**Effect** When you build a brewery, reduce <<Unrest|Kingdom-Rules#Unrest>> by 1 as long as you have fewer than 4 breweries in the <<settlement|Settlement-Rules>> at that time.
 )
 
 item(
@@ -315,9 +315,9 @@ A brickyard is an open area with vats for mixing clay and kilns for firing brick
 
 **Construction** Industry (trained) DC 18
 
-**Item Bonus** +1 item bonus to Establish Work Site (quarry)
+**Item Bonus** +1 item bonus to <<Establish Work Site|Kingdom-Actions#EstablishWorkSite>> (<<quarry|Kingdom-Rules#WorkSite>>)
 
-**Effect** You can build quarries within the settlement's influence in desert, plains, or coastal terrain, reducing the RP cost to build them by 1.
+**Effect** You can build <<quarries|Kingdom-Rules#WorkSite>> within the <<settlement|Settlement-Rules>>'s <<influence|Settlement-Rules#Influence>> in desert, plains, or coastal terrain, reducing the <<RP|Kingdom-Rules#ResourcePoints>> cost to build them by 1.
 )
 
 item(
@@ -325,7 +325,7 @@ item(
 ## Structure 2
 -
 ; Building
-A reinforced span designed to cross waterways and ease public transportation.
+A reinforced span designed to cross <<waterways|Settlement-Structures#Waterway>> and ease public transportation.
 -
 
 **Lots** 0 or 1; **Cost** 3 Lumber or 3 Stone
@@ -336,9 +336,9 @@ A reinforced span designed to cross waterways and ease public transportation.
 
 **Construction** Engineering DC 16
 
-**Effect** People within the settlement can freely move across squares occupied by a waterway that also has a bridge.
+**Effect** People within the <<settlement|Settlement-Rules>> can freely move across squares occupied by a <<waterway|Settlement-Structures#Waterway>> that also has a bridge.
 
-**Special** A bridge can share the same space as a waterway inside a city. Alternatively, if the settlement has a water border but nearby land, a bridge can be built occupying one square but serving as a causeway to connect the settlement to dry land beyond the city.
+**Special** A bridge can share the same space as a <<waterway|Settlement-Structures#Waterway>> inside a city. Alternatively, if the <<settlement|Settlement-Rules>> has a <<water border|Settlement-Rules#WaterBorder>> but nearby land, a bridge can be built occupying one square but serving as a causeway to connect the <<settlement|Settlement-Rules>> to dry land beyond the city.
 )
 
 item(
@@ -357,11 +357,11 @@ A large complex of offices and workrooms for clerks, scribes, and other keepers 
 
 **Construction** Community (trained) DC 19
 
-**Item Bonus** +1 *circumstance* bonus to any one Focus.
+**Item Bonus** +1 circumstance bonus to any one Skill.
 
-**Effect** The first time you build a bureau each Kingdom turn, reduce one Ruin of your choice by 1.
+**Effect** The first time you build a bureau each Kingdom turn, reduce one **Ruin of your choice by 1.
 
-**Special** You can build multiple Bureaus in a settlement, but each must select a different Focus (such as a Bureau of Agriculture and a Bureau of Trade).
+**Special** You can build multiple Bureaus in a <<settlement|Settlement-Rules>>, but each must select a different Skill (such as a Bureau of Agriculture and a Bureau of Trade).
 )
 
 item(
@@ -369,7 +369,7 @@ item(
 ## Structure 9
 -
 ; Building,Edifice,Fame
-A castle is a fortified structure that often serves as the seat of government for a kingdom.
+A castle is a fortified <<structure|Settlement-Structures>> that often serves as the seat of government for a kingdom.
 -
 
 **Lots** 4; **Cost** 12 Lumber, 12 Stone
@@ -382,12 +382,12 @@ A castle is a fortified structure that often serves as the seat of government fo
 
 **Construction** Defense (expert), Industry (expert), Magic (expert), or Statecraft (expert) DC 26
 
-**Upgrade From** town hall
+**Upgrade From** <<town hall|Settlement-Structures#TownHall>>
 
-**Upgrade To** palace
-**Item Bonus** +2 item bonus to Manage Trade Agreements, Relocate Capital, New Leadership, Pledge of Fealty, Send Diplomatic Envoy, and +2 item bonus to Garrison Army, Recover Army, or Recruit Army
+**Upgrade To** <<palace|Settlement-Structures#Palace>>
+**Item Bonus** +2 item bonus to <<Manage Trade Agreements|Kingdom-Actions#ManageTradeAgreements>>, <<Relocate Capital|Kingdom-Actions#RelocateCapital>>, <<New Leadership|Kingdom-Actions#NewLeadership>>, <<Pledge of Fealty|Kingdom-Actions#PledgeOfFealty>>, <<Send Diplomatic Envoy|Kingdom-Actions#SendDiplomaticEnvoy>>, and +2 item bonus to <<Garrison Army|Kingdom-Actions#GarrisonArmy>>, <<Recover Army|Kingdom-Actions#RecoverArmy>>, or <<Recruit Army|Kingdom-Actions#RecruitArmy>>
 
-**Effect** The first time you build a castle each Kingdom turn, reduce Unrest by 1d4. A castle in a capital allows PC leaders to take 3 Leadership activities during the Activity phase of a Kingdom turn rather than 2.
+**Effect** The first time you build a castle each Kingdom turn, reduce <<Unrest|Kingdom-Rules#Unrest>> by 1d4. A castle in a <<capital|Settlement-Rules#Capital>> allows PC leaders to take 3 <<Leadership activities|Kingdom-Actions#LeadershipPhase>> during the <<Activity phase|Kingdom-Turn#ActivityPhase>> of a Kingdom turn rather than 2.
 )
 
 item(
@@ -395,7 +395,7 @@ item(
 ## Structure 15
 -
 ; Building,Edifice,Fame
-A cathedral serves as a focal point of spiritual worship in the settlement and the seat of regional power for a religion. Most cathedrals are astounding works of art and eye‑catching marvels of architecture.
+A cathedral serves as a focal point of spiritual worship in the <<settlement|Settlement-Rules>> and the seat of regional power for a religion. Most cathedrals are astounding works of art and eye‑catching marvels of architecture.
 -
 
 **Lots** 4; **Cost** 20 Lumber, 20 Stone
@@ -408,11 +408,11 @@ A cathedral serves as a focal point of spiritual worship in the settlement and t
 
 **Construction** Folklore (master) DC 34
 
-**Upgrade From** temple
+**Upgrade From** <<temple|Settlement-Structures#Temple>>
 
-**Item Bonus** +3 item bonus to Celebrate Holiday, Provide Care, and Repair Reputation (Corruption)
+**Item Bonus** +3 item bonus to <<Celebrate Holiday|Kingdom-Actions#CelebrateHoliday>>, <<Provide Care|Kingdom-Actions#ProvideCare>>, and <<Repair Reputation|Kingdom-Actions#RepairReputation>> (Corruption)
 
-**Effect** The first time you build a cathedral in a turn, reduce Unrest by 4. While in a settlement with a cathedral, you gain a +3 item bonus to Lore and Religion checks made to Recall Knowledge while Investigating, and to all faith-themed checks made while Researching (Gamemastery Guide 154).
+**Effect** The first time you build a cathedral in a turn, reduce <<Unrest|Kingdom-Rules#Unrest>> by 4. While in a <<settlement|Settlement-Rules>> with a cathedral, you gain a +3 item bonus to Lore and Religion checks made to <<Recall Knowledge|https://2e.aonprd.com/Skills.aspx?ID=24&General=true>> while Investigating, and to all faith-themed checks made while <<Researching|https://2e.aonprd.com/Rules.aspx?ID=3045>>.
 )
 
 item(
@@ -431,7 +431,7 @@ A cemetery sets aside a plot of land to bury the dead and can also include above
 
 **Construction** Folklore DC 15
 
-**Effect** Giving the citizens a place to bury and remember their departed loved ones helps to temper Unrest gained from dangerous events. If you have at least one cemetery in a settlement, reduce Unrest gained from any dangerous settlement events in that particular settlement by 1 (to a maximum of 4 for four cemeteries). The presence of a cemetery provides additional effects during certain kingdom events.
+**Effect** Giving the citizens a place to bury and remember their departed loved ones helps to temper <<Unrest|Kingdom-Rules#Unrest>> gained from dangerous events. If you have at least one cemetery in a <<settlement|Settlement-Rules>>, reduce <<Unrest|Kingdom-Rules#Unrest>> gained from any dangerous <<settlement|Settlement-Rules>> events in that particular <<settlement|Settlement-Rules>> by 1 (to a maximum of 4 for four cemeteries). The presence of a cemetery provides additional effects during certain kingdom events.
 )
 
 item(
@@ -439,7 +439,7 @@ item(
 ## Structure 1
 -
 ; Building
-A safe supply of fresh water for a settlement, usually stored underground.
+A safe supply of fresh water for a <<settlement|Settlement-Rules>>, usually stored underground.
 -
 
 **Lots** 1; **Cost** 2 Stone
@@ -452,7 +452,7 @@ A safe supply of fresh water for a settlement, usually stored underground.
 
 **Item Bonus** +1 item bonus to resolve a Crop Failure, Food Shortage, or Local Disaster event.
 
-**Effect** If a settlement has a Cistern adjacent to a Granary, that Granary increases your kingdom’s Food Commodity capacity by 2 instead of by 1.
+**Effect** If a <<settlement|Settlement-Rules>> has a Cistern adjacent to a Granary, that Granary increases your kingdom’s Food <<Commodity|Kingdom-Rules#Commodities>> capacity by 2 instead of by 1.
 
 **Special** A cistern cannot be built adjacent to a Cemetery, Yard, Dump, Stables, Stockyard, or Tannery.
 )
@@ -473,13 +473,13 @@ A towering edifice of stone and burnished metal displays your power to the world
 
 **Construction** Arts (Master), Community (Master), Faith (Master), or Warfare (master) DC 34
 
-**Upgrade From** Monument
+**Upgrade From** <<Monument|Settlement-Structures#Monument>>
 
-**Item Bonus** +2 item bonus to Celebrate Holiday and to Garrison Army, Recover Army, or Recruit Army in a settlement with a colossus. You gain a +4 item bonus to Relocate Capital to a settlement with a colossus.
+**Item Bonus** +2 item bonus to <<Celebrate Holiday|Kingdom-Actions#CelebrateHoliday>> and to <<Garrison Army|Kingdom-Actions#GarrisonArmy>>, <<Recover Army|Kingdom-Actions#RecoverArmy>>, or <<Recruit Army|Kingdom-Actions#RecruitArmy>> in a <<settlement|Settlement-Rules>> with a colossus. You gain a +4 item bonus to <<Relocate Capital|Kingdom-Actions#RelocateCapital>> to a <<settlement|Settlement-Rules>> with a colossus.
 
-**Effect** The first time you build a colossus each Kingdom turn, reduce Unrest by 2 and reduce one Ruin of your choice by 2. Your armies gain a +2 item bonus to Morale of armies when in a settlement with a colossus, or a +1 item bonus to Morale if they are in the same hex or an adjacent hex. This bonus to Morale checks stacks with the bonus granted by the Fortified condition.
+**Effect** The first time you build a colossus each Kingdom turn, reduce <<Unrest|Kingdom-Rules#Unrest>> by 2 and reduce one **Ruin of your choice by 2. Your armies gain a +2 item bonus to Morale of armies when in a <<settlement|Settlement-Rules>> with a colossus, or a +1 item bonus to Morale if they are in the same hex or an adjacent hex. This bonus to Morale checks stacks with the bonus granted by the <<Fortified|Army-Conditions#Fortified>> condition.
 
-**Special** A colossus can share the same space on the urban grid with a lighthouse or observatory (but not both).
+**Special** A colossus can share the same space on the <<urban grid|Settlement-Rules#TheUrbanGrid>> with an <<observatory|Settlement-Structures#Observatory>> (but not both).
 )
 
 item(
@@ -487,7 +487,7 @@ item(
 ## Structure 10
 -
 ; Yard
-A construction yard supports the building of structures by providing a centralized place to gather supplies and craft components for larger projects.
+A construction yard supports the building of <<structures|Settlement-Structures>> by providing a centralized place to gather supplies and craft components for larger projects.
 -
 
 **Lots** 4; **Cost** 10 Lumber, 10 Stone
@@ -498,7 +498,7 @@ A construction yard supports the building of structures by providing a centraliz
 
 **Construction** Engineering DC 27
 
-**Item Bonus** +1 item bonus to Build Housing, Build Roads, Build Structure, Irrigation, Repair, and to Repair Reputation (Decay)
+**Item Bonus** +1 item bonus to <<Build Housing|Kingdom-Actions#BuildHousing>>, <<Build Roads|Kingdom-Actions#BuildRoads>>, <<Build Structure|Kingdom-Actions#BuildStructure>>, <<Irrigation|Kingdom-Actions#Irrigation>>, <<Repair|Kingdom-Actions#BuildStructure>>, and to <<Repair Reputation|Kingdom-Actions#RepairReputation>> (Decay)
 )
 
 item(
@@ -517,9 +517,9 @@ A hall of justice, for hearing cases and resolving disputes by the rule of law.
 
 **Construction** Community (expert) DC 22
 
-**Item Bonus** +1 item bonus to Repair Reputation and on checks to resolve a Justice Prevails event.
+**Item Bonus** +1 item bonus to <<Repair Reputation|Kingdom-Actions#RepairReputation>> and on checks to resolve a Justice Prevails event.
 
-**Effect** The first time you build a courthouse in a Kingdom turn, reduce your Corruption and Crime Ruin scores by 1 each. While in a settlement with a courthouse, you gain a +1 item bonus to Lore checks related to the law and legal matters.
+**Effect** The first time you build a courthouse in a Kingdom turn, reduce your Corruption and Crime **Ruin scores by 1 each. While in a <<settlement|Settlement-Rules>> with a courthouse, you gain a +1 item bonus to Lore checks related to the law and legal matters.
 )
 
 item(
@@ -538,11 +538,11 @@ A specialized furnace building primarily used for burning the dead into ash, tho
 
 **Construction** Industry (trained) DC 19
 
-**Item Bonus** +1 item bonus to Demolish
+**Item Bonus** +1 item bonus to <<Demolish|Kingdom-Actions#Demolish>>
 
 **Effect** You gain a +1 item bonus on checks to resolve Plague events or Monster Activity involving undead. If built adjacent to a cemetery, it negates any additional effects that cemetery would normally have during certain kingdom events.
 
-**Special** A crematorium must be built adjacent to a cemetery or dump.
+**Special** A crematorium must be built adjacent to a <<cemetery|Settlement-Structures#Cemetery>> or <<dump|Settlement-Structures#Dump>>.
 )
 
 item(
@@ -553,7 +553,7 @@ item(
 A dump is a centralized place for the disposal of refuse, often including a shack for a caretaker to live in.
 -
 
-**Lots** 1; **Cost** 4 RP
+**Lots** 1; **Cost** 4 <<RP|Kingdom-Rules#ResourcePoints>>
 
 **Monthly Cost** 4 RP / 1 Months
 
@@ -561,10 +561,9 @@ A dump is a centralized place for the disposal of refuse, often including a shac
 
 **Construction** Industry DC 16
 
-**Item Bonus** +1 item bonus to Demolish
+**Item Bonus** +1 item bonus to <<Demolish|Kingdom-Actions#Demolish>>
 
-**Effect** Certain events have a more dangerous impact on settlements that don’t include a dump. A dump can’t be located in a block with any Residential structures.
-located in a block with any Residential structures.
+**Effect** Certain events have a more dangerous impact on <<settlements|Settlement-Rules>> that don’t include a dump. A dump can’t be located in a block with any Residential <<structures|Settlement-Structures>>.
 )
 
 item(
@@ -583,7 +582,7 @@ An embassy gives a place for diplomatic visitors to your kingdom to stay and bol
 
 **Construction** Politics DC 24
 
-**Item Bonus** +1 item bonus to Send Diplomatic Envoy and Request Foreign Aid
+**Item Bonus** +1 item bonus to <<Send Diplomatic Envoy|Kingdom-Actions#SendDiplomaticEnvoy>> and <<Request Foreign Aid|Kingdom-Actions#RequestForeignAid>>
 )
 
 item(
@@ -604,9 +603,9 @@ A fountain built around magically generated springs or streams that creates an i
 
 **Item Bonus** +1 item bonus to resolve a Crop Failure, Food Shortage, or Local Disaster event.
 
-**Effect** You increase your kingdom’s maximum Food Commodity storage capacity by 1.
+**Effect** You increase your kingdom’s maximum Food <<Commodity|Kingdom-Rules#Commodities>> storage capacity by 1.
 
-**Special** Can share a lot with a castle, cathedral, monument, park, sacred grove, shrine, or temple.
+**Special** Can share a lot with a <<castle|Settlement-Structures#Castle>>, <<cathedral|Settlement-Structures#Cathedral>>, <<monument|Settlement-Structures#Monument>>, <<park|Settlement-Structures#Park>>, <<sacred grove|Settlement-Structures#SacredGrove>>, <<shrine|Settlement-Structures#Shrine>>, or <<temple|Settlement-Structures#Temple>>.
 )
 
 item(
@@ -625,9 +624,9 @@ A festival hall is a small building that gives performers a venue to entertain a
 
 **Construction** Arts DC 18
 
-**Upgrade To** theater
+**Upgrade To** <<theater|Settlement-Structures#Theater>>
 
-**Item Bonus** +1 item bonus to Celebrate Holiday and Quell Unrest (Arts)
+**Item Bonus** +1 item bonus to <<Celebrate Holiday|Kingdom-Actions#CelebrateHoliday>> and <<Quell Unrest|Kingdom-Actions#QuellUnrest>> (Arts)
 )
 
 item(
@@ -648,9 +647,9 @@ A foundry is a facility used to refine ore into finished metal.
 
 **Construction** Industry (trained) DC 18
 
-**Item Bonus** +1 item bonus to Establish Work Site (mine)
+**Item Bonus** +1 item bonus to <<Establish Work Site|Kingdom-Actions#EstablishWorkSite>> (mine)
 
-**Effect** By processing ore in a foundry, your settlements grow more efficient at storing your kingdom’s Commodities. Each foundry in your kingdom increases your maximum Ore Commodity capacity by 1. A foundry cannot share a block with a Residential structure.
+**Effect** By processing ore in a foundry, your <<settlements|Settlement-Rules>> grow more efficient at storing your kingdom’s <<Commodities|Kingdom-Rules#Commodities>>. Each foundry in your kingdom increases your maximum Ore <<Commodity|Kingdom-Rules#Commodities>> capacity by 1. A foundry cannot share a block with a Residential <<structure|Settlement-Structures>>.
 )
 
 item(
@@ -671,9 +670,9 @@ An illicit place for games of skill and chance, wagering all manner of stakes.
 
 **Ruin** +1 Corruption, +1 Crime
 
-**Item Bonus** +1 item bonus to Clandestine Business
+**Item Bonus** +1 item bonus to <<Clandestine Business|Kingdom-Actions#ClandestineBusiness>>
 
-**Effect** The first time you build a gambling den on your kingdom turn, you can make an Intrigue check against your kingdom’s control DC. If the check succeeds, you gain a bonus Resource Die for economy, or two Resource Dice on a critical success. If the check fails, you lose 1 RP from all four ability score pools, or one Resource Die from each on a critical failure. In addition, you can use Intrigue for the Rest and Relax kingdom activity.
+**Effect** The first time you build a gambling den on your kingdom turn, you can make an Intrigue check against your kingdom’s <<control DC|Kingdom-Rules#ControlDC>>. If the check succeeds, you gain a bonus <<Resource Die|Kingdom-Rules#ResourceDice>> for economy, or two <<Resource Dice|Kingdom-Rules#ResourceDice>> on a critical success. If the check fails, you lose 1 <<RP|Kingdom-Rules#ResourcePoints>> from all four ability score pools, or one <<Resource Die|Kingdom-Rules#ResourceDice>> from each on a critical failure. In addition, you can use Intrigue for the <<Rest and Relax|Kingdom-Actions#RestAndRelax>> kingdom activity.
 )
 
 item(
@@ -696,9 +695,9 @@ A garrison is a complex of barracks, training yards, and weapons storage and rep
 
 **Upgrade From** barracks
 
-**Item Bonus** +1 item bonus to Fortify, Fortify Hex, Outfit Army, or Train Army
+**Item Bonus** +1 item bonus to <<Build Fortification|Kingdom-Actions#BuildFortification>>, <<Fortify Hex|Kingdom-Actions#FortifyHex>>, <<Outfit Army|Kingdom-Actions#OutfitArmy>>, or <<Train Army|Kingdom-Actions#TrainArmy>>
 
-**Effect** A garrison helps outfit armies with new gear or trains them. When you build a garrison, reduce Unrest by 1.
+**Effect** A garrison helps outfit armies with new gear or trains them. When you build a garrison, reduce <<Unrest|Kingdom-Rules#Unrest>> by 1.
 )
 
 item(
@@ -718,7 +717,7 @@ A general store is a place for merchants to sell everyday items and gear to trav
 
 **Construction** Trade DC 15
 
-**Upgrade To** luxury store, marketplace
+**Upgrade To** <<luxury store|Settlement-Structures#LuxuryStore>>, <<marketplace|Settlement-Structures#Marketplace>>
 )
 
 item(
@@ -737,9 +736,9 @@ A granary consists of silos and warehouses for the storage of grain and other pr
 
 **Construction** Agriculture DC 15 (trained)
 
-**Item Bonus** +1 item bonus to Establish Farmland
+**Item Bonus** +1 item bonus to <<Establish Farmland|Kingdom-Actions#EstablishFarmland>>
 
-**Effect** Each granary in your kingdom increases your maximum Food Commodity capacity by 1.
+**Effect** Each granary in your kingdom increases your maximum Food <<Commodity|Kingdom-Rules#Commodities>> capacity by 1.
 )
 
 item(
@@ -747,7 +746,7 @@ item(
 ## Structure 5
 -
 ; Building
-A guildhall serves as the headquarters for a trade guild or similar organization. It includes offices for its leaders and functionaries as well as workshops for its craftspeople and a storefront for customers. Guildhalls always specialize in a certain type of trade or pursuit, but typically, only the largest cities have multiple guildhalls. Smaller settlements tend to focus on one particular trade.
+A guildhall serves as the headquarters for a trade guild or similar organization. It includes offices for its leaders and functionaries as well as workshops for its craftspeople and a storefront for customers. Guildhalls always specialize in a certain type of trade or pursuit, but typically, only the largest cities have multiple guildhalls. Smaller <<settlements|Settlement-Rules>> tend to focus on one particular trade.
 -
 
 **Lots** 2; **Cost** 8 Lumber
@@ -760,11 +759,11 @@ A guildhall serves as the headquarters for a trade guild or similar organization
 
 **Construction** Trade (expert) DC 20
 
-**Upgrade From** trade shop
+**Upgrade From** <<trade shop|Settlement-Structures#TradeShop>>
 
-**Item Bonus** +1 item bonus to Tap Treasury
+**Item Bonus** +1 item bonus to <<Tap Treasury|Kingdom-Actions#TapTreasury>>
 
-**Effect** When you build a guildhall, indicate what sort of organization (such as bakers, grocers, smiths, etc.) it serves as a headquarters for. While in a settlement with a guildhall, you gain a +1 item bonus to all related skill checks to Earn Income or to Repair.
+**Effect** When you build a guildhall, indicate what sort of organization (such as bakers, grocers, smiths, etc.) it serves as a headquarters for. While in a <<settlement|Settlement-Rules>> with a guildhall, you gain a +1 item bonus to all related skill checks to <<Earn Income|https://2e.aonprd.com/Skills.aspx?ID=21&General=true>> or to <<Repair|Kingdom-Actions#BuildStructure>>.
 )
 
 item(
@@ -785,11 +784,11 @@ A magnificent set of urban gardens, arboretums, and conservatories for the enjoy
 
 **Construction** Agriculture (master) DC 34
 
-**Upgrade From** park
+**Upgrade From** <<park|Settlement-Structures#Park>>
 
-**Item Bonus** +2 item bonus to Celebrate Holiday and to Garrison Army, Recover Army, or Recruit Army in a settlement with a colossus. You gain a +4 item bonus to Relocate Capital to a settlement with a hanging gardens.
+**Item Bonus** +2 item bonus to <<Celebrate Holiday|Kingdom-Actions#CelebrateHoliday>> and to <<Garrison Army|Kingdom-Actions#GarrisonArmy>>, <<Recover Army|Kingdom-Actions#RecoverArmy>>, or <<Recruit Army|Kingdom-Actions#RecruitArmy>> in a <<settlement|Settlement-Rules>> with a hanging gardens. You gain a +4 item bonus to <<Relocate Capital|Kingdom-Actions#RelocateCapital>> to a <<settlement|Settlement-Rules>> with a hanging gardens.
 
-**Effect** The first time you build hanging gardens each Kingdom turn, reduce Unrest by 2 and reduce Decay by 2. A settlement with hanging gardens reduces its Consumption by 2. In addition, you can use Agriculture for the Rest and Relax kingdom activity. While in a settlement with hanging gardens, you gain a +2 item bonus to Lore checks related to plants, agriculture, and medicine.
+**Effect** The first time you build hanging gardens each Kingdom turn, reduce <<Unrest|Kingdom-Rules#Unrest>> by 2 and reduce Decay by 2. A <<settlement|Settlement-Rules>> with hanging gardens reduces its <<Consumption|Settlement-Rules#Consumption>> by 2. In addition, you can use Agriculture for the <<Rest and Relax|Kingdom-Actions#RestAndRelax>> kingdom activity. While in a <<settlement|Settlement-Rules>> with hanging gardens, you gain a +2 item bonus to Lore checks related to plants, agriculture, and medicine.
 )
 
 item(
@@ -810,9 +809,9 @@ An herbalist consists of small medicinal gardens tended by those with knowledge 
 
 **Construction** Wilderness DC 15
 
-**Upgrade To** hospital
+**Upgrade To** <<hospital|Settlement-Structures#Hospital>>
 
-**Item Bonus** +1 item bonus to Provide Care
+**Item Bonus** +1 item bonus to <<Provide Care|Kingdom-Actions#ProvideCare>>
 )
 
 item(
@@ -833,11 +832,11 @@ A hospital is a building dedicated to healing the sick through both magical and 
 
 **Construction** Defense (expert) DC 26
 
-**Upgrade From** herbalist
+**Upgrade From** <<herbalist|Settlement-Structures#Herbalist>>
 
-**Item Bonus** +1 item bonus to Provide Care and Quell Unrest
+**Item Bonus** +1 item bonus to <<Provide Care|Kingdom-Actions#ProvideCare>> and <<Quell Unrest|Kingdom-Actions#QuellUnrest>>
 
-**Effect** While in a settlement with a hospital, you gain a +2 item bonus to Medicine checks to Treat Disease and Treat Wounds.
+**Effect** While in a <<settlement|Settlement-Rules>> with a hospital, you gain a +2 item bonus to Medicine checks to <<Treat Disease|https://2e.aonprd.com/Actions.aspx?ID=2397>> and <<Treat Wounds|https://2e.aonprd.com/Actions.aspx?ID=2399>>.
 )
 
 item(
@@ -856,11 +855,11 @@ Houses provide a neighborhood of single and multi-family dwellings for your citi
 
 **Construction** Industry DC 15
 
-**Upgrade From** tenement
+**Upgrade From** <<tenement|Settlement-Structures#Tenement>>
 
-**Upgrade To** mansion or orphanage
+**Upgrade To** <<mansion|Settlement-Structures#Mansion>> or <<orphanage|Settlement-Structures#Orphanage>>
 
-**Effect** The first time you build houses each Kingdom turn, reduce Unrest by 1.
+**Effect** The first time you build houses each Kingdom turn, reduce <<Unrest|Kingdom-Rules#Unrest>> by 1.
 )
 
 item(
@@ -881,7 +880,7 @@ An illicit market uses a facade of shops, homes, and other innocent-seeming buil
 
 **Construction** Intrigue (trained) DC 22
 
-**Item Bonus** +1 item bonus to Clandestine Business
+**Item Bonus** +1 item bonus to <<Clandestine Business|Kingdom-Actions#ClandestineBusiness>>
 
 **Ruin** +1 Crime
 )
@@ -891,7 +890,7 @@ item(
 ## Structure 1
 -
 ; Building,Residential
-An inn provides a safe and secure place for a settlement’s visitors to rest.
+An inn provides a safe and secure place for a <<settlement’s|Settlement-Rules>> visitors to rest.
 -
 
 **Lots** 1; **Cost** 2 Lumber
@@ -902,7 +901,7 @@ An inn provides a safe and secure place for a settlement’s visitors to rest.
 
 **Construction** Trade DC 15
 
-**Item Bonus** +1 Item bonus to Clear Hex (Exploration) and Hire Adventurers
+**Item Bonus** +1 Item bonus to <<Clear Hex|Kingdom-Actions#ClearHex>> (Exploration) and <<Hire Adventurers|Kingdom-Actions#HireAdventurers>>
 )
 
 item(
@@ -910,7 +909,7 @@ item(
 ## Structure 2
 -
 ; Building
-A jail is a fortified structure that houses criminals, prisoners, or dangerous monsters separate from the rest of society.
+A jail is a fortified <<structure|Settlement-Structures>> that houses criminals, prisoners, or dangerous monsters separate from the rest of society.
 -
 
 **Lots** 1; **Cost** 4 Lumber, 2 Ore, 4 Stone
@@ -921,7 +920,7 @@ A jail is a fortified structure that houses criminals, prisoners, or dangerous m
 
 **Construction** Defense DC 16
 
-**Item Bonus** +1 item bonus to Quell Unrest using Intrigue
+**Item Bonus** +1 item bonus to <<Quell Unrest|Kingdom-Actions#QuellUnrest>> using Intrigue
 
 **Effect** The first time you build a jail each a Kingdom turn, reduce Crime by 1.
 )
@@ -931,7 +930,7 @@ item(
 ## Structure 3
 -
 ; Building,Edifice
-A keep is a high-walled defensive structure that guards the heart of a settlement. It includes practice and marshaling yards as well as a refuge for your leaders should danger strike the settlement.
+A keep is a high-walled defensive <<structure|Settlement-Structures>> that guards the heart of a <<settlement|Settlement-Rules>>. It includes practice and marshaling yards as well as a refuge for your leaders should danger strike the <<settlement|Settlement-Rules>>.
 -
 
 **Lots** 2; **Cost** 8 Lumber, 8 Stone
@@ -944,9 +943,9 @@ A keep is a high-walled defensive structure that guards the heart of a settlemen
 
 **Construction** Defense (trained) DC 18
 
-**Item Bonus** +1 item bonus to Deploy Army, Garrison Army, or Train Army
+**Item Bonus** +1 item bonus to <<Deploy Army|Kingdom-Actions#DeployArmy>>, <<Garrison Army|Kingdom-Actions#GarrisonArmy>>, or <<Train Army|Kingdom-Actions#TrainArmy>>
 
-**Effect** The first time you build a keep each Kingdom turn, reduce Unrest by 1.
+**Effect** The first time you build a keep each Kingdom turn, reduce <<Unrest|Kingdom-Rules#Unrest>> by 1.
 )
 
 item(
@@ -967,11 +966,11 @@ A library contains collections of books, scrolls, writings, and records conduciv
 
 **Construction** Scholarship (trained) DC 16
 
-**Upgrade To** academy
+**Upgrade To** <<academy|Settlement-Structures#Academy>>
 
-**Item Bonus** +1 item bonus to Creative Solution and Rest and Relax using Scholarship checks
+**Item Bonus** +1 item bonus to <<Creative Solution|Kingdom-Actions#CreativeSolution>> and <<Rest and Relax|Kingdom-Actions#RestAndRelax>> using Scholarship checks
 
-**Effect** While in a settlement with a library, you gain a +1 item bonus to Lore checks made to Recall Knowledge while Investigating, as well as to Researching checks (Gamemastery Guide 154), and to Decipher Writing checks.
+**Effect** While in a <<settlement|Settlement-Rules>> with a library, you gain a +1 item bonus to Lore checks made to <<Recall Knowledge|https://2e.aonprd.com/Skills.aspx?ID=24&General=true>> while Investigating, as well as to <<Researching|https://2e.aonprd.com/Rules.aspx?ID=3045>> checks, and to <<Decipher Writing|https://2e.aonprd.com/Skills.aspx?ID=20&General=true>> checks.
 )
 
 item(
@@ -990,9 +989,9 @@ A lumberyard is an open area used to store additional lumber. The yard includes 
 
 **Construction** Industry (trained) DC 18
 
-**Item Bonus** +1 item bonus to Establish Work Site (lumber camp)
+**Item Bonus** +1 item bonus to <<Establish Work Site|Kingdom-Actions#EstablishWorkSite>> (<<lumber camp|Kingdom-Rules#WorkSite>>)
 
-**Effect** Each lumberyard in your kingdom increases maximum Lumber Commodity capacity by 1. A lumberyard must be built in a lot next to a Water border, both to give the yard a source of power to run saws to process timber, but more importantly to facilitate the shipment of trees to the yard.
+**Effect** Each lumberyard in your kingdom increases maximum Lumber <<Commodity|Kingdom-Rules#Commodities>> capacity by 1. A lumberyard must be built in a lot next to a Water border, both to give the yard a source of power to run saws to process timber, but more importantly to facilitate the shipment of trees to the yard.
 )
 
 item(
@@ -1013,13 +1012,13 @@ This collection of stores specializes in expensive, rare, and exotic goods that 
 
 **Construction** Trade (expert) DC 22
 
-**Upgrade From** general store
+**Upgrade From** <<general store|Settlement-Structures#GeneralStore>>
 
-**Upgrade To** magic shop
+**Upgrade To** <<magic shop|Settlement-Structures#MagicShop>>
 
-**Item Bonus** +1 item bonus to Establish Trade Agreement
+**Item Bonus** +1 item bonus to <<Establish Trade Agreement|Kingdom-Actions#EstablishTradeAgreement>>
 
-**Effect** A luxury store must be built on a block that has either a mansion or a noble villa.
+**Effect** A luxury store must be built on a block that has either a <<mansion|Settlement-Structures#Mansion>> or a <<noble villa|Settlement-Structures#NobleVilla>>.
 )
 
 item(
@@ -1040,11 +1039,11 @@ These shops specialize in magic items and in connecting buyers with sellers of m
 
 **Construction** Magic (expert) DC 24
 
-**Upgrade From** luxury store
+**Upgrade From** <<luxury store|Settlement-Structures#LuxuryStore>>
 
-**Upgrade To** occult shop
+**Upgrade To** <<occult shop|Settlement-Structures#OccultShop>>
 
-**Item Bonus** +1 item bonus to Prognostication and Supernatural Solution
+**Item Bonus** +1 item bonus to <<Prognostication|Kingdom-Actions#Prognostication>> and <<Supernatural Solution|Kingdom-Actions#SupernaturalSolution>>
 )
 
 item(
@@ -1055,7 +1054,7 @@ item(
 Magical streetlamps are everburning torches that have been fitted within lampposts along the streets. At your option, these magical lights might even be free-floating spheres of light or other unusual forms of illumination.
 -
 
-**Lots** —; **Cost** 20 RP
+**Lots** —; **Cost** 20 <<RP|Kingdom-Rules#ResourcePoints>>
 
 **Monthly Cost** 4 RP / 5 Months
 
@@ -1063,7 +1062,7 @@ Magical streetlamps are everburning torches that have been fitted within lamppos
 
 **Construction** Magic (expert) DC 20
 
-**Effect** Magical streetlamps provide nighttime illumination for an entire Urban Grid. When you build magical streetlamps, check the magical streetlamps checkbox on your Urban Grid. The first time you build magical streetlamps in a Kingdom turn, reduce Crime by 1.
+**Effect** Magical streetlamps provide nighttime illumination for an entire <<Urban Grid|Settlement-Rules#TheUrbanGrid>>. When you build magical streetlamps, check the magical streetlamps checkbox on your <<Urban Grid|Settlement-Rules#TheUrbanGrid>>. The first time you build magical streetlamps in a Kingdom turn, reduce Crime by 1.
 )
 
 item(
@@ -1082,11 +1081,11 @@ This larger manor house houses a wealthy family.
 
 **Construction** Industry (trained) DC 20
 
-**Upgrade From** houses
+**Upgrade From** <<houses|Settlement-Structures#Houses>>
 
-**Upgrade To** noble villa
+**Upgrade To** <<noble villa|Settlement-Structures#NobleVilla>>
 
-**Item Bonus** +1 item bonus to Improve Lifestyle
+**Item Bonus** +1 item bonus to <<Improve Lifestyle|Kingdom-Actions#ImproveLifestyle>>
 )
 
 item(
@@ -1107,9 +1106,9 @@ A marketplace is a large neighborhood of shops run by local vendors around an op
 
 **Construction** Trade (trained) DC 19
 
-**Upgrade From** general store
+**Upgrade From** <<general store|Settlement-Structures#GeneralStore>>
 
-**Item Bonus** +1 item bonus to Establish Trade Agreement and Trade Fair
+**Item Bonus** +1 item bonus to <<Establish Trade Agreement|Kingdom-Actions#EstablishTradeAgreement>> and <<Trade Fair|Kingdom-Actions#TradeFair>>
 )
 
 item(
@@ -1128,11 +1127,11 @@ A menagerie is a large zoo that contains numerous enclosures, exhibits, tanks, o
 
 **Construction** Wilderness (expert) DC 30
 
-**Upgrade From** park
+**Upgrade From** <<park|Settlement-Structures#Park>>
 
-**Item Bonus** +2 item bonus to Rest and Relax using Wilderness
+**Item Bonus** +2 item bonus to <<Rest and Relax|Kingdom-Actions#RestAndRelax>> using Wilderness
 
-**Effect** A menagerie typically contains a selection of level 5 or lower animals. If your party captures a living creature of level 6 or higher and can transport the creature back to a settlement with a menagerie, you can add that creature to the menagerie as long as your kingdom level is at least 4 higher than the creature’s level. Each time such a creature is added to a menagerie, gain 1 Fame or Infamy point (as appropriate) or reduce one Ruin of your choice by 1. Only creatures with Intelligence modifiers of –4 or –5 are appropriate to place in a menagerie. A kingdom gains 1 Unrest at the start of a Kingdom turn for each sapient creature (anything with an Intelligence modifier of –3 or higher) on display in a menagerie.
+**Effect** A menagerie typically contains a selection of level 5 or lower animals. If your party captures a living creature of level 6 or higher and can transport the creature back to a <<settlement|Settlement-Rules>> with a menagerie, you can add that creature to the menagerie as long as your kingdom level is at least 4 higher than the creature’s level. Each time such a creature is added to a menagerie, gain 1 <<Fame|Kingdom-Rules#FameAndInfamy>> or <<Infamy|Kingdom-Rules#FameAndInfamy>> point (as appropriate) or reduce one **Ruin of your choice by 1. Only creatures with Intelligence modifiers of –4 or –5 are appropriate to place in a menagerie. A kingdom gains 1 <<Unrest|Kingdom-Rules#Unrest>> at the start of a Kingdom turn for each sapient creature (anything with an Intelligence modifier of –3 or higher) on display in a menagerie.
 )
 
 item(
@@ -1153,9 +1152,9 @@ A military academy is dedicated to the study of war and the training of elite so
 
 **Construction** Warfare (expert) DC 30
 
-**Upgrade From** academy
+**Upgrade From** <<academy|Settlement-Structures#Academy>>
 
-**Item Bonus** +2 item bonus to Pledge of Fealty using Warfare, +2 item bonus to Train Army
+**Item Bonus** +2 item bonus to <<Pledge of Fealty|Kingdom-Actions#PledgeOfFealty>> using Warfare, +2 item bonus to <<Train Army|Kingdom-Actions#TrainArmy>>
 )
 
 item(
@@ -1174,9 +1173,9 @@ A mill grinds grain using the power of wind, water, or beasts of burden.
 
 **Construction** Industry (trained) DC 16
 
-**Item Bonus** +1 item bonus to Harvest Crops
+**Item Bonus** +1 item bonus to <<Harvest Crops|Kingdom-Actions#HarvestCrops>>
 
-**Effect** If a settlement includes at least one mill built on a lot adjacent to a Water border, the increased efficiency of these mills reduces the settlement’s Consumption by 1 (to a minimum of 0).
+**Effect** If a <<settlement|Settlement-Rules>> includes at least one mill built on a lot adjacent to a <<Water border|Settlement-Rules#WaterBorder>>, the increased efficiency of these mills reduces the <<settlement’s|Settlement-Rules>> <<Consumption|Settlement-Rules#Consumption>> by 1 (to a minimum of 0).
 )
 
 item(
@@ -1197,7 +1196,7 @@ A mint allows the kingdom to produce its own coinage to augment its economy. It 
 
 **Construction** Trade (master) DC 34
 
-**Item Bonus** +3 item bonus to Capital Investment, Collect Taxes, and to Repair Reputation (Crime)
+**Item Bonus** +3 item bonus to <<Capital Investment|Kingdom-Actions#CapitalInvestment>>, <<Collect Taxes|Kingdom-Actions#CollectTaxes>>, and to <<Repair Reputation|Kingdom-Actions#RepairReputation>> (Crime)
 )
 
 item(
@@ -1218,9 +1217,9 @@ A cloister for meditation, study, and the pursuit of various other scholarly or 
 
 **Construction** Faith (trained) DC 23
 
-**Item Bonus** +1 item bonus to Repair Reputation (Corruption)
+**Item Bonus** +1 item bonus to <<Repair Reputation|Kingdom-Actions#RepairReputation>> (Corruption)
 
-**Effect** The first time you build a monastery each Kingdom turn, reduce Unrest by 1 and reduce Corruption by 1. Choose one type of Lore for your monastery to study; while in a settlement containing a monastery, you gain a +1 item bonus to Lore checks of that type.
+**Effect** The first time you build a monastery each Kingdom turn, reduce <<Unrest|Kingdom-Rules#Unrest>> by 1 and reduce Corruption by 1. Choose one type of Lore for your monastery to study; while in a <<settlement|Settlement-Rules>> containing a monastery, you gain a +1 item bonus to Lore checks of that type.
 )
 
 item(
@@ -1228,7 +1227,7 @@ item(
 ## Structure 3
 -
 ; Building,Edifice
-A monument is an impressive stone structure built to commemorate a historical event, honor a beloved leader, memorialize a tragedy, or simply serve as an artistic display.
+A monument is an impressive stone <<structure|Settlement-Structures>> built to commemorate a historical event, honor a beloved leader, memorialize a tragedy, or simply serve as an artistic display.
 
 **Lots** 1; **Cost** 1 Stone
 
@@ -1238,9 +1237,9 @@ A monument is an impressive stone structure built to commemorate a historical ev
 
 **Construction** Arts (trained) DC 18
 
-**Item Bonus** +1 to Create a Masterpiece
+**Item Bonus** +1 to <<Create a Masterpiece|Kingdom-Actions#CreateAMasterpiece>>
 
-**Effect** The first time you build a monument each Kingdom turn, reduce Unrest by 1 and reduce one Ruin of your choice by 1.
+**Effect** The first time you build a monument each Kingdom turn, reduce <<Unrest|Kingdom-Rules#Unrest>> by 1 and reduce one **Ruin of your choice by 1.
 )
 
 item(
@@ -1259,9 +1258,9 @@ A museum displays art, objects of important cultural note, wonders of the natura
 
 **Construction** Exploration (trained) DC 20
 
-**Item Bonus** +1 item bonus to Rest and Relax using Arts
+**Item Bonus** +1 item bonus to <<Rest and Relax|Kingdom-Actions#RestAndRelax>> using Arts
 
-**Effect** A magic item of level 6 or higher that has a particular import or bears significant historical or regional value (at the GM’s discretion) can be donated to a museum. Each time such an item is donated, reduce Unrest by 1. If that item is later removed from display, increase Unrest by 1.
+**Effect** A magic item of level 6 or higher that has a particular import or bears significant historical or regional value (at the GM’s discretion) can be donated to a museum. Each time such an item is donated, reduce <<Unrest|Kingdom-Rules#Unrest>> by 1. If that item is later removed from display, increase <<Unrest|Kingdom-Rules#Unrest>> by 1.
 )
 
 item(
@@ -1269,7 +1268,7 @@ item(
 ## Structure 9
 -
 ; Building,Residential,Fame
-This sprawling manor has luxurious grounds. It houses a noble family and their staff, and includes several smaller support structures such as servant’s quarters, stables, and groundskeeper’s cottages in addition to a manor.
+This sprawling manor has luxurious grounds. It houses a noble family and their staff, and includes several smaller support <<structures|Settlement-Structures>> such as servant’s quarters, stables, and groundskeeper’s cottages in addition to a manor.
 -
 
 **Lots** 2; **Cost** 10 Lumber, 6 Luxuries, 8 Stone
@@ -1284,9 +1283,9 @@ This sprawling manor has luxurious grounds. It houses a noble family and their s
 
 **Upgrade From** mansion
 
-**Item Bonus** +1 item bonus to Improve Lifestyle and to Quell Unrest using Politics
+**Item Bonus** +1 item bonus to <<Improve Lifestyle|Kingdom-Actions#ImproveLifestyle>> and to <<Quell Unrest|Kingdom-Actions#QuellUnrest>> using Politics
 
-**Effect** The first time you build a noble villa each Kingdom turn, reduce Unrest by 2.
+**Effect** The first time you build a noble villa each Kingdom turn, reduce <<Unrest|Kingdom-Rules#Unrest>> by 2.
 )
 
 item(
@@ -1307,9 +1306,9 @@ A specialized edifice designed for measuring the passage of time and observing t
 
 **Construction** Scholarship (trained) DC 23
 
-**Item Bonus** +1 item bonus to Prognostication
+**Item Bonus** +1 item bonus to <<Prognostication|Kingdom-Actions#Prognostication>>
 
-**Effect** While in a settlement with an observatory, you gain a +1 item bonus to Lore checks related to the suns and stars.
+**Effect** While in a <<settlement|Settlement-Rules>> with an observatory, you gain a +1 item bonus to Lore checks related to the suns and stars.
 )
 
 item(
@@ -1332,9 +1331,9 @@ An occult shop is usually a sprawling, mysterious store that specializes in buyi
 
 **Upgrade From** magic shop
 
-**Item Bonus** +2 item bonus to Magical Construction, Prognostication, and Supernatural Solution
+**Item Bonus** +2 item bonus to <<Magical Construction|Kingdom-Actions#MagicalConstruction>>, <<Prognostication|Kingdom-Actions#Prognostication>>, and <<Supernatural Solution|Kingdom-Actions#SupernaturalSolution>>
 
-**Effect** While in a settlement with an occult shop, you gain a +2 item bonus to all checks made to Research esoteric subjects or to Recall Knowledge about the same.
+**Effect** While in a <<settlement|Settlement-Rules>> with an occult shop, you gain a +2 item bonus to all checks made to <<Research|https://2e.aonprd.com/Rules.aspx?ID=3045>> esoteric subjects or to <<Recall Knowledge|https://2e.aonprd.com/Skills.aspx?ID=24&General=true>> about the same.
 )
 
 item(
@@ -1353,11 +1352,11 @@ An opera house functions well as a venue for operas, plays, and concerts, but al
 
 **Construction** Arts (master) DC 34
 
-**Upgrade From** theater
+**Upgrade From** <<theater|Settlement-Structures#Theater>>
 
-**Item Bonus** +3 item bonus to Celebrate Holiday and Create a Masterpiece
+**Item Bonus** +3 item bonus to <<Celebrate Holiday|Kingdom-Actions#CelebrateHoliday>> and <<Create a Masterpiece|Kingdom-Actions#CreateAMasterpiece>>
 
-**Effect** The first time you build an opera house each Kingdom turn, reduce Unrest by 4. While in a settlement with an opera house, you gain a +3 item bonus to Performance checks made to Earn Income.
+**Effect** The first time you build an opera house each Kingdom turn, reduce <<Unrest|Kingdom-Rules#Unrest>> by 4. While in a <<settlement|Settlement-Rules>> with an opera house, you gain a +3 item bonus to Performance checks made to <<Earn Income|https://2e.aonprd.com/Skills.aspx?ID=21&General=true>>.
 )
 
 item(
@@ -1378,7 +1377,7 @@ This sprawling residential building provides housing for orphans or even homeles
 
 **Upgrade From** houses
 
-**Effect** The first time you build an orphanage each Kingdom turn, reduce Unrest by 1.
+**Effect** The first time you build an orphanage each Kingdom turn, reduce <<Unrest|Kingdom-Rules#Unrest>> by 1.
 )
 
 item(
@@ -1399,11 +1398,11 @@ A palace is a grand and splendid seat of government for your leaders and other p
 
 **Construction** Defense (master), Industry (master), Magic (master), or Statecraft (master) DC 34
 
-**Upgrade From** castle
+**Upgrade From** <<castle|Settlement-Structures#Castle>>
 
-**Item Bonus** +3 item bonus to Manage Trade Routes, New Leadership, Pledge of Fealty, Relocate Capital, and Send Diplomatic Envoy, and +3 item bonus to Garrison Army, Recover Army, or Recruit Army
+**Item Bonus** +3 item bonus to <<Manage Trade Routes|Kingdom-Actions#ManageTradeAgreements>>, <<New Leadership|Kingdom-Actions#NewLeadership>>, <<Pledge of Fealty|Kingdom-Actions#PledgeOfFealty>>, <<Relocate Capital|Kingdom-Actions#RelocateCapital>>, and <<Send Diplomatic Envoy|Kingdom-Actions#SendDiplomaticEnvoy>>, and +3 item bonus to <<Garrison Army|Kingdom-Actions#GarrisonArmy>>, <<Recover Army|Kingdom-Actions#RecoverArmy>>, or <<Recruit Army|Kingdom-Actions#RecruitArmy>>
 
-**Effect** A palace can only be built in your capital. The first time you build a palace, reduce Unrest by 10. If you Relocate your Capital, a palace left behind in that capital instead functions as a noble villa that takes up 4 lots. (If you represent this by placing two noble villas in these lots, make sure to note that they constitute a single building and aren’t two separate structures.) A palace in a capital allows PC leaders to take 3 Leadership activities during the Activity phase of a Kingdom turn rather than just 2. In addition, once your kingdom has a palace, a PC in the Ruler leadership role gains a +3 item bonus to checks made to resolve Leadership activities.
+**Effect** A palace can only be built in your <<capital|Settlement-Rules#Capital>>. The first time you build a palace, reduce <<Unrest|Kingdom-Rules#Unrest>> by 10. If you <<Relocate your Capital|Kingdom-Actions#RelocateCapital>>, a palace left behind in that capital instead functions as a <<noble villa|Settlement-Structures#NobleVilla>> that takes up 4 lots. (If you represent this by placing two <<noble villas|Settlement-Structures#NobleVilla>> in these lots, make sure to note that they constitute a single building and aren’t two separate <<structures|Settlement-Structures>>.) A palace in a <<capital|Settlement-Rules#Capital>> allows PC leaders to take 3 <<Leadership activities|Kingdom-Actions#LeadershipPhase>> during the <<Activity phase|Kingdom-Turn#ActivityPhase>> of a Kingdom turn rather than just 2. In addition, once your kingdom has a palace, a PC in the <<Ruler leadership|Leadership-Roles#Ruler>> role gains a +3 item bonus to checks made to resolve <<Leadership activities|Kingdom-Actions#LeadershipPhase>>.
 )
 
 item(
@@ -1414,7 +1413,7 @@ item(
 A park is a plot of undeveloped land set aside for public use. This lot could be left as is, or the landscaping could be manipulated to have a specific look or type of terrain.
 -
 
-**Lots** 1; **Cost** 5 RP
+**Lots** 1; **Cost** 5 <<RP|Kingdom-Rules#ResourcePoints>>
 
 **Monthly Cost** 5 RP / 1 Months
 
@@ -1422,11 +1421,11 @@ A park is a plot of undeveloped land set aside for public use. This lot could be
 
 **Construction** Wilderness DC 18
 
-**Upgrade To** menagerie
+**Upgrade To** <<menagerie|Settlement-Structures#Menagerie>>
 
-**Item Bonus** +1 item bonus to Rest and Relax using Wilderness checks
+**Item Bonus** +1 item bonus to <<Rest and Relax|Kingdom-Actions#RestAndRelax>> using Wilderness checks
 
-**Effect** The first time you build a park each Kingdom turn, reduce Unrest by 1.
+**Effect** The first time you build a park each Kingdom turn, reduce <<Unrest|Kingdom-Rules#Unrest>> by 1.
 )
 
 item(
@@ -1445,7 +1444,7 @@ Brick or cobblestone streets speed transportation and ease the passage of people
 
 **Construction** Industry (trained) DC 19
 
-**Effect** It takes a character only 5 minutes to move from one lot to an adjacent lot in an Urban Grid when moving on paved streets. When you build paved streets, check the paved streets checkbox on your Urban Grid.
+**Effect** It takes a character only 5 minutes to move from one lot to an adjacent lot in an <<Urban Grid|Settlement-Rules#TheUrbanGrid>> when moving on paved streets. When you build paved streets, check the paved streets checkbox on your <<Urban Grid|Settlement-Rules#TheUrbanGrid>>.
 )
 
 item(
@@ -1466,11 +1465,11 @@ Several wooden piers allow easy access to fishing and provide a convenient place
 
 **Construction** Boating DC 18
 
-**Upgrade To** waterfront
+**Upgrade To** <<waterfront|Settlement-Structures#Waterfront>>
 
-**Item Bonus** +1 item bonus to Fishing Fleet, Go Fishing
+**Item Bonus** +1 item bonus to <<Fishing Fleet|Kingdom-Actions#FishingFleet>>, <<Go Fishing|Kingdom-Actions#GoFishing>>
 
-**Effect** A pier must be built in a lot next to a Water border.
+**Effect** A pier must be built in a lot next to a <<Water border|Settlement-Rules#WaterBorder>>.
 )
 
 item(
@@ -1489,7 +1488,7 @@ An unsightly heap of rubble fills this lot.
 
 **Construction** —
 
-**Effect** Rubble is created accidentally, such as from a result of certain kingdom events or failed Demolish activity. You cannot build in a lot with rubble; it must be removed via a successful Demolish activity.
+**Effect** Rubble is created accidentally, such as from a result of certain kingdom events or failed <<Demolish|Kingdom-Actions#Demolish>> activity. You cannot build in a lot with rubble; it must be removed via a successful <<Demolish|Kingdom-Actions#Demolish>> activity.
 )
 
 item(
@@ -1497,10 +1496,10 @@ item(
 ## Structure 5
 -
 ; Yard
-This untouched land has been blessed by primal spirits, druids friendly with your settlement, or allied fey creatures.
+This untouched land has been blessed by primal spirits, druids friendly with your <<settlement|Settlement-Rules>>, or allied fey creatures.
 -
 
-**Lots** 1; **Cost** 36 RP
+**Lots** 1; **Cost** 36 <<RP|Kingdom-Rules#ResourcePoints>>
 
 **Monthly Cost** 6 RP / 6 Months
 
@@ -1510,7 +1509,7 @@ This untouched land has been blessed by primal spirits, druids friendly with you
 
 **Construction** Wilderness (trained) DC 20
 
-**Item Bonus** +1 item bonus to Quell Unrest using Folklore
+**Item Bonus** +1 item bonus to <<Quell Unrest|Kingdom-Actions#QuellUnrest>> using Folklore
 )
 
 item(
@@ -1529,9 +1528,9 @@ Secure warehouses are used to store valuables.
 
 **Construction** Industry (expert) DC 22
 
-**Item Bonus** +1 item bonus to Craft Luxuries
+**Item Bonus** +1 item bonus to <<Craft Luxuries|Kingdom-Actions#CraftLuxuries>>
 
-**Effect** Each secure warehouse in your kingdom increases your maximum Luxuries Commodity capacity by 1.
+**Effect** Each secure warehouse in your kingdom increases your maximum Luxuries <<Commodity|Kingdom-Rules#Commodities>> capacity by 1.
 )
 
 item(
@@ -1539,7 +1538,7 @@ item(
 ## Structure 7
 -
 ; Infrastructure
-This underground sanitation system helps keep the settlement clean and disease-free.
+This underground sanitation system helps keep the <<settlement|Settlement-Rules>> clean and disease-free.
 -
 
 **Lots** —; **Cost** 8 Lumber, 8 Stone
@@ -1550,9 +1549,9 @@ This underground sanitation system helps keep the settlement clean and disease-f
 
 **Construction** Engineering (expert) DC 23
 
-**Item Bonus** +1 item bonus to Clandestine Business
+**Item Bonus** +1 item bonus to <<Clandestine Business|Kingdom-Actions#ClandestineBusiness>>
 
-**Effect** A sewer system reduces the settlement’s Consumption by 1. Having a sewer system can also affect certain kingdom events. When you build a sewer system, check the sewer system checkbox on its Urban Grid. (For metropolises, this infrastructure automatically applies to all of its Urban Grids.)
+**Effect** A sewer system reduces the <<settlement’s|Settlement-Rules>> <<Consumption|Settlement-Rules#Consumption>> by 1. Having a sewer system can also affect certain kingdom events. When you build a sewer system, check the sewer system checkbox on its <<Urban Grid|Settlement-Rules#TheUrbanGrid>>. (For <<metropolises|Settlement-Rules#Metropolis>>, this infrastructure automatically applies to all of its <<Urban Grids|Settlement-Rules#TheUrbanGrid>>.)
 )
 
 item(
@@ -1573,9 +1572,9 @@ A shrine is a small building devoted to the worship of a deity or faith. It can 
 
 **Construction** Folklore (trained) DC 15
 
-**Upgrade To** temple
+**Upgrade To** <<temple|Settlement-Structures#Temple>>
 
-**Item Bonus** +1 item bonus to Celebrate Holiday
+**Item Bonus** +1 item bonus to <<Celebrate Holiday|Kingdom-Actions#CelebrateHoliday>>
 )
 
 item(
@@ -1596,9 +1595,9 @@ A smithy consists of workshops and forges.
 
 **Construction** Industry (trained) DC 18
 
-**Item Bonus** +1 item bonus to Clear Hex (Engineering), Trade Commodities, +1 item bonus to Outfit Army
+**Item Bonus** +1 item bonus to <<Clear Hex|Kingdom-Actions#ClearHex>> (Engineering), <<Trade Commodities|Kingdom-Actions#TradeCommodities>>, +1 item bonus to <<Outfit Army|Kingdom-Actions#OutfitArmy>>
 
-**Effect** While in a settlement with a smithy, you gain a +1 item bonus to Craft checks made to work with metal.
+**Effect** While in a <<settlement|Settlement-Rules>> with a smithy, you gain a +1 item bonus to <<Craft|https://2e.aonprd.com/Actions.aspx?ID=2385>> checks made to work with metal.
 )
 
 item(
@@ -1619,15 +1618,15 @@ A meeting place for lowlifes and criminals looking to move illicit goods, whethe
 
 **Construction** Intrigue (trained) DC 16
 
-**Upgrade To** Illicit Market
+**Upgrade To** <<Illicit Market|Settlement-Structures#IllicitMarket>>
 
 **Ruin** Score +1 Crime
 
 **Item Bonus** +1 item bonus to Manage Trade Agreements, and you can use Intrigue instead of Trade to Manage Trade Agreements.
 
-**Effect** When you have a failure when using Intrigue to Manage Trade Agreements, you can treat it as a success instead, but you gain +1 Crime. If you have a critical failure when using Intrigue to Manage Trade Agreements, your smuggling is detected and you gain 1 Infamy and 1 Unrest, and you have a -1 penalty on checks to Manage Trade Agreements for 1d4 months.
+**Effect** When you have a failure when using Intrigue to Manage Trade Agreements, you can treat it as a success instead, but you gain +1 Crime. If you have a critical failure when using Intrigue to Manage Trade Agreements, your smuggling is detected and you gain 1 <<Infamy|Kingdom-Rules#FameAndInfamy>> and 1 <<Unrest|Kingdom-Rules#Unrest>>, and you have a -1 penalty on checks to Manage Trade Agreements for 1d4 months.
 
-**Special** A Smuggler’s Den must share a block with at least one Housing improvement and another Structure with a Construction requirement of Community, Faith, Industry, or Trade as a front.
+**Special** A Smuggler’s Den must share a block with at least one Housing improvement and another <<Structure|Settlement-Structures>> with a Construction requirement of Community, Faith, Industry, or Trade as a front.
 )
 
 item(
@@ -1650,7 +1649,7 @@ These shops and homes are devoted to crafters who create fine jewelry, glassware
 
 **Item Bonus** +1 item bonus to Craft Luxuries
 
-**Effect** While in a settlement with a specialized artisan, you gain a +1 item bonus to Craft checks made to craft specialized goods like jewelry.
+**Effect** While in a <<settlement|Settlement-Rules>> with a specialized artisan, you gain a +1 item bonus to Craft checks made to craft specialized goods like jewelry.
 )
 
 item(
@@ -1658,7 +1657,7 @@ item(
 ## Structure 3
 -
 ; Yard
-A stable consists of a yard and smaller structures to house, train, and sell mounts.
+A stable consists of a yard and smaller <<structures|Settlement-Structures>> to house, train, and sell mounts.
 -
 
 **Lots** 1; **Cost** 2 Lumber
@@ -1690,7 +1689,7 @@ A stockyard includes several barns and pens used to house livestock and prepare 
 
 **Item Bonus** +1 item bonus to Breed Livestock, Gather Livestock
 
-**Effect** A settlement with at least one stockyard reduces its Consumption by 1.
+**Effect** A <<settlement|Settlement-Rules>> with at least one stockyard reduces its <<Consumption|Settlement-Rules#Consumption>> by 1.
 )
 
 item(
@@ -1709,9 +1708,9 @@ A stonemason is a large building used to store and work quarried stone for prepa
 
 **Construction** Industry (trained) DC 18
 
-**Item Bonus** +1 item bonus to Establish Work Site (quarry).
+**Item Bonus** +1 item bonus to <<Establish Work Site|Kingdom-Actions#EstablishWorkSite>> (quarry).
 
-**Effect** Each stonemason in your kingdom increases your maximum Stone Commodity capacity by 1.
+**Effect** Each stonemason in your kingdom increases your maximum Stone <<Commodity|Kingdom-Rules#Commodities>> capacity by 1.
 )
 
 item(
@@ -1730,13 +1729,13 @@ A tannery is a factory outfitted with racks, vats and tools for the preparation 
 
 **Construction** Industry (trained) DC 18
 
-**Item Bonus** +1 to Breed Livestock, Trade Commodities
+**Item Bonus** +1 to Breed Livestock, Trade <<Commodities|Kingdom-Rules#Commodities>>
 
-**Effect** A tannery cannot share a block with any Residential structure except tenements.
+**Effect** A tannery cannot share a block with any Residential <<structure|Settlement-Structures>> except tenements.
 )
 
 item(
-# Tavern, Dive[[Tavern,Dive]]
+# Tavern, Dive[[TavernDive]]
 ## Structure 1
 -
 ; Building
@@ -1755,11 +1754,11 @@ A dive tavern is a rough-and-tumble establishment for entertainment, eating, and
 
 **Item Bonus** +1 to Clear Hex (Exploration)
 
-**Effect** The first time you build a dive tavern in a Kingdom turn, reduce Unrest by 1 but increase Crime by 1.
+**Effect** The first time you build a dive tavern in a Kingdom turn, reduce <<Unrest|Kingdom-Rules#Unrest>> by 1 but increase Crime by 1.
 )
 
 item(
-# Tavern, Popular[[Tavern,Popular]]
+# Tavern, Popular[[TavernPopular]]
 ## Structure 3
 -
 ; Building
@@ -1780,11 +1779,11 @@ A popular tavern is a respectable establishment for entertainment, eating, and d
 
 **Item Bonus** +1 item bonus to Hire Adventurers, Reconnoiter Hex, and to Rest and Relax using Trade
 
-**Effect** The first time you build a popular tavern in a Kingdom turn, reduce Unrest by 2. If you attempt a Performance check to Earn Income in a settlement with a popular tavern, you gain a +1 item bonus to the check. All checks made to Gather Information in a settlement with at least one popular tavern gain a +1 item bonus.
+**Effect** The first time you build a popular tavern in a Kingdom turn, reduce <<Unrest|Kingdom-Rules#Unrest>> by 2. If you attempt a Performance check to Earn Income in a <<settlement|Settlement-Rules>> with a popular tavern, you gain a +1 item bonus to the check. All checks made to Gather Information in a <<settlement|Settlement-Rules>> with at least one popular tavern gain a +1 item bonus.
 )
 
 item(
-# Tavern, Luxury[[Tavern,Luxury]]
+# Tavern, Luxury[[TavernLuxury]]
 ## Structure 9
 -
 ; Building,Fame
@@ -1805,11 +1804,11 @@ A luxury tavern is a high-class establishment for entertainment, eating, and dri
 
 **Item Bonus** +2 item bonus to Hire Adventurers, Reconnoiter Hex, and to Rest and Relax using Trade
 
-**Effect** The first time you build a luxury tavern in a Kingdom turn, reduce Unrest by 1d4+1. If attempt a Performance check to Earn Income in a settlement with a luxury tavern, you gain a +2 item bonus to the check. All checks made to Gather Information in a settlement with at least one luxury tavern gain a +2 item bonus.
+**Effect** The first time you build a luxury tavern in a Kingdom turn, reduce <<Unrest|Kingdom-Rules#Unrest>> by 1d4+1. If attempt a Performance check to Earn Income in a <<settlement|Settlement-Rules>> with a luxury tavern, you gain a +2 item bonus to the check. All checks made to Gather Information in a <<settlement|Settlement-Rules>> with at least one luxury tavern gain a +2 item bonus.
 )
 
 item(
-# Tavern, World-Class[[Tavern,WorldClass]]
+# Tavern, World-Class[[TavernWorldClass]]
 ## Structure 15
 -
 ; Building,Edifice,Fame
@@ -1828,7 +1827,7 @@ A World-Class Tavern is a legendary establishment for entertainment, eating, and
 
 **Item Bonus** +3 item bonus to Hire Adventurers, Reconnoiter Hex, Rest and Relax using Trade, and to Repair Reputation (Strife)
 
-**Effect** The first time you build a world-class tavern in a Kingdom turn, reduce Unrest by 2d4. If you attempt a Performance check to Earn Income in a settlement with a world-class tavern, you gain a +3 item bonus to the check. All checks made to Gather Information in a settlement with a world-class tavern gain a +3 item bonus.
+**Effect** The first time you build a world-class tavern in a Kingdom turn, reduce <<Unrest|Kingdom-Rules#Unrest>> by 2d4. If you attempt a Performance check to Earn Income in a <<settlement|Settlement-Rules>> with a world-class tavern, you gain a +3 item bonus to the check. All checks made to Gather Information in a <<settlement|Settlement-Rules>> with a world-class tavern gain a +3 item bonus.
 )
 
 item(
@@ -1853,7 +1852,7 @@ A temple is a building devoted to worshipping a deity or faith.
 
 **Item Bonus** +1 item bonus to Celebrate Holiday and Provide Care
 
-**Effect** The first time you build a temple each Kingdom turn, reduce Unrest by 2.
+**Effect** The first time you build a temple each Kingdom turn, reduce <<Unrest|Kingdom-Rules#Unrest>> by 2.
 )
 
 item(
@@ -1874,9 +1873,9 @@ Tenements are hastily built shantytowns of tightly packed, multi-family dwelling
 
 **Upgrade To** Houses
 
-**Ruin** +1 to a Ruin of your choice
+**Ruin** +1 to a <<Ruin|Kingdom-Rules#Ruin>> of your choice
 
-**Effect** The first time you build tenements each Kingdom turn, reduce Unrest by 1.
+**Effect** The first time you build tenements each Kingdom turn, reduce <<Unrest|Kingdom-Rules#Unrest>> by 1.
 )
 
 item(
@@ -1901,7 +1900,7 @@ A theater is a venue for concerts, plays, and dances, but can double as a place 
 
 **Item Bonus** +2 item bonus to Celebrate Holiday.
 
-**Effect** The first time you build a theater each Kingdom turn, reduce Unrest by 1. While in a settlement with a theater, you gain a +2 item bonus to Performance checks made to Earn Income.
+**Effect** The first time you build a theater each Kingdom turn, reduce <<Unrest|Kingdom-Rules#Unrest>> by 1. While in a <<settlement|Settlement-Rules>> with a theater, you gain a +2 item bonus to Performance checks made to Earn Income.
 )
 
 item(
@@ -1920,11 +1919,11 @@ The government knows this group exists but allows it to continue doing its busin
 
 **Construction** Intrigue (trained) DC 20
 
-**Item Bonus** +1 item bonus to Infiltration
+**Item Bonus** +1 item bonus to <<Infiltration|Kingdom-Actions#Infiltration>>
 
 **Ruin** +1 Crime
 
-**Effect** While in a settlement with a thieves’ guild, you gain a +1 item bonus to Create Forgeries.
+**Effect** While in a <<settlement|Settlement-Rules>> with a thieves’ guild, you gain a +1 item bonus to <<Create Forgeries|https://2e.aonprd.com/Actions.aspx?ID=2402>>.
 )
 
 item(
@@ -1943,11 +1942,11 @@ A town hall is a public venue for town meetings and a repository for town histor
 
 **Construction** Defense (trained), Industry (trained), Magic (trained), or Statecraft (trained) DC 16
 
-**Upgrade To** castle
+**Upgrade To** <<castle|Settlement-Structures#Castle>>
 
-**Item Bonus** +1 to Manage Trade Agreements
+**Item Bonus** +1 to <<Manage Trade Agreements|Kingdom-Actions#ManageTradeAgreements>>
 
-**Effect** The first time you build a town hall each Kingdom turn, reduce Unrest by 1. A town hall in a capital allows PC leaders to take 3 Leadership activities during the Activity phase of a Kingdom turn rather than just 2.
+**Effect** The first time you build a town hall each Kingdom turn, reduce <<Unrest|Kingdom-Rules#Unrest>> by 1. A town hall in a <<capital|Settlement-Rules#Capital>> allows PC leaders to take 3 <<Leadership activities|Kingdom-Actions#LeadershipPhase>> during the <<Activity phase|Kingdom-Turn#ActivityPhase>> of a Kingdom turn rather than just 2.
 )
 
 item(
@@ -1966,11 +1965,11 @@ A trade shop is a store that focuses on providing services.
 
 **Construction** Trade (trained) DC 18
 
-**Upgrade To** guildhall
+**Upgrade To** <<guildhall|Settlement-Structures#Guildhall>>
 
-**Item Bonus** +1 item bonus to Purchase Commodities
+**Item Bonus** +1 item bonus to <<Purchase Commodities|Kingdom-Actions#PurchaseCommodities>>
 
-**Effect** When you build a trade shop, indicate the kind of shop it is, such as a bakery, carpenter, tailor, and so on. While in a settlement with a trade shop, you gain a +1 item bonus to all associated Crafting checks.
+**Effect** When you build a trade shop, indicate the kind of shop it is, such as a bakery, carpenter, tailor, and so on. While in a <<settlement|Settlement-Rules>> with a trade shop, you gain a +1 item bonus to all associated <<Crafting|https://2e.aonprd.com/Actions.aspx?ID=2385>> checks.
 )
 
 item(
@@ -1989,19 +1988,19 @@ A university is a sprawling institution of higher learning.
 
 **Construction** Scholarship (master) DC 34
 
-**Upgrade From** academy
+**Upgrade From** <<academy|Settlement-Structures#Academy>>
 
-**Item Bonus** +3 item bonus to Creative Solution
+**Item Bonus** +3 item bonus to <<Creative Solution|Kingdom-Actions#CreativeSolution>>
 
-**Effect** While in a settlement with a university, you gain a +3 item bonus to Lore checks made to Recall Knowledge while Investigating, to Research checks (Gamemastery Guide 154), and to Decipher Writing.
+**Effect** While in a <<settlement|Settlement-Rules>> with a university, you gain a +3 item bonus to Lore checks made to <<Recall Knowledge|https://2e.aonprd.com/Skills.aspx?ID=24&General=true>> while Investigating, to <<Research|https://2e.aonprd.com/Rules.aspx?ID=3045>> checks, and to <<Decipher Writing|https://2e.aonprd.com/Skills.aspx?ID=20&General=true>>.
 )
 
 item(
-# Wall, Stone[[Wall,Stone]]
+# Wall, Stone[[WallStone]]
 ## Structure 5
 -
 ; Infrastructure
-Stone walls provide solid defenses to a settlement’s borders.
+Stone walls provide solid defenses to a <<settlement’s|Settlement-Rules>> borders.
 -
 
 **Lots** —; **Cost** 8 Stone
@@ -2012,17 +2011,17 @@ Stone walls provide solid defenses to a settlement’s borders.
 
 **Construction** Defense (trained) DC 20
 
-**Upgrade From** wooden wall
+**Upgrade From** <<wooden wall|Settlement-Structures#WallWooden>>
 
-**Effect** A stone wall is built along the border of your settlement. The first time you build a stone wall in each settlement, reduce Unrest by 1. When you build a stone wall, choose a border on your Urban Grid and check the appropriate checkbox; if you’re upgrading from a wooden wall, uncheck that box.
+**Effect** A stone wall is built along the border of your <<settlement|Settlement-Rules>>. The first time you build a stone wall in each <<settlement|Settlement-Rules>>, reduce <<Unrest|Kingdom-Rules#Unrest>> by 1. When you build a stone wall, choose a border on your <<Urban Grid|Settlement-Rules#TheUrbanGrid>> and check the appropriate checkbox; if you’re upgrading from a <<wooden wall|Settlement-Structures#WallWooden>>, uncheck that box.
 )
 
 item(
-# Wall, Wooden[[Wall,Wooden]]
+# Wall, Wooden[[WallWooden]]
 ## Structure 1
 -
 ; Infrastructure
-Wooden walls provide serviceable defenses to a settlement.
+Wooden walls provide serviceable defenses to a <<settlement|Settlement-Rules>>.
 -
 
 **Lots** —; **Cost** 4 Lumber
@@ -2035,7 +2034,7 @@ Wooden walls provide serviceable defenses to a settlement.
 
 **Upgrade To** stone wall
 
-**Effect** A wooden wall is built along the border of your settlement. The first time you build a wooden wall in each settlement, reduce Unrest by 1. When you build a wooden wall, choose a border on your Urban Grid and check the appropriate checkbox.
+**Effect** A wooden wall is built along the border of your <<settlement|Settlement-Rules>>. The first time you build a wooden wall in each <<settlement|Settlement-Rules>>, reduce <<Unrest|Kingdom-Rules#Unrest>> by 1. When you build a wooden wall, choose a border on your <<Urban Grid|Settlement-Rules#TheUrbanGrid>> and check the appropriate checkbox.
 )
 
 item(
@@ -2043,7 +2042,7 @@ item(
 ## Structure 3
 -
 ; Building
-A watchtower serves as a guard post that grants a settlement advance warning to upcoming dangerous events.
+A watchtower serves as a guard post that grants a <<settlement|Settlement-Rules>> advance warning to upcoming dangerous events.
 -
 
 **Lots** 1; **Cost** 4 Lumber or 4 Stone
@@ -2054,9 +2053,9 @@ A watchtower serves as a guard post that grants a settlement advance warning to 
 
 **Construction** Defense (trained) DC 18
 
-**Item Bonus** +1 item bonus to checks to resolve events affecting the settlement.
+**Item Bonus** +1 item bonus to checks to resolve events affecting the <<settlement|Settlement-Rules>>.
 
-**Effect** The first time you build a watchtower each Kingdom turn, decrease Unrest by 1.
+**Effect** The first time you build a watchtower each Kingdom turn, decrease <<Unrest|Kingdom-Rules#Unrest>> by 1.
 )
 
 item(
@@ -2075,11 +2074,11 @@ A waterfront serves as a bustling port for waterborne passengers and cargo. It�
 
 **Construction** Boating (expert) DC 24
 
-**Upgrade From** pier
+**Upgrade From** <<pier|Settlement-Structures#Pier>>
 
-**Item Bonus** +1 item bonus to Fishing Fleet, Go Fishing, and to Establish Trade Agreement and Rest and Relax using Boating
+**Item Bonus** +1 item bonus to <<Fishing Fleet|Kingdom-Actions#FishingFleet>>, <<Go Fishing|Kingdom-Actions#GoFishing>>, and to <<Establish Trade Agreement|Kingdom-Actions#EstablishTradeAgreement>> and <<Rest and Relax|Kingdom-Actions#RestAndRelax>> using Boating
 
-**Effect** A waterfront must be constructed next to a Water Border.
+**Effect** A waterfront must be constructed next to a <<Water Border|Settlement-Rules#WaterBorder>>.
 )
 
 item(
@@ -2098,9 +2097,9 @@ A reinforced culvert or conduit for allowing water to pass through your fortific
 
 **Construction** Defense (expert) DC 22
 
-**Effect** When you have built a stone wall, a watergate allows water (including a natural river or an artificial waterway or aqueduct) to enter the settlement, while still having defenses on the surface and below the water, such as booms, jetties, harbor chains, and the like, to provide protection against aquatic assault.
+**Effect** When you have built a <<stone wall|Settlement-Structures#WallStone>>, a watergate allows water (including a natural river or an artificial waterway or aqueduct) to enter the <<settlement|Settlement-Rules>>, while still having defenses on the surface and below the water, such as booms, jetties, harbor chains, and the like, to provide protection against aquatic assault.
 
-**Special** You can build a watergate as part of the same Build Structure activity to build a stone wall, using the higher DC for the watergate and paying the RP cost for both structures.
+**Special** You can build a watergate as part of the same <<Build Structure|Kingdom-Actions#BuildStructure>> activity to build a <<stone wall|Settlement-Structures#WallStone>>, using the higher DC for the watergate and paying the <<RP|Kingdom-Rules#ResourcePoints>> cost for both <<structures|Settlement-Structures>>.
 )
 
 item(
@@ -2108,7 +2107,7 @@ item(
 ## Structure 1
 -
 ; Infrastructure
-An artificial waterway dug into the earth within the boundaries of your settlement.
+An artificial waterway dug into the earth within the boundaries of your <<settlement|Settlement-Rules>>.
 -
 
 **Lots** 1; **Cost** 1 Lumber or 1 Stone
@@ -2119,9 +2118,9 @@ An artificial waterway dug into the earth within the boundaries of your settleme
 
 **Construction** Engineering DC 15
 
-**Item Bonus** +1 item bonus to Build Structure when you construct a baths, cistern, or park adjacent to the waterway.
+**Item Bonus** +1 item bonus to <<Build Structure|Kingdom-Actions#BuildStructure>> when you construct a <<baths|Settlement-Structures#Baths>>, <<cistern|Settlement-Structures#Cistern>>, or <<park|Settlement-Structures#Park>> adjacent to the waterway.
 
-**Effect** You transform a square on your building hex into a canal. All squares directly adjacent to that square (not including diagonally adjacent squares) are considered to have a water border. A waterway must be adjacent to a water border or another waterway. Water cannot pass through a wall unless the wall has a Watergate.
+**Effect** You transform a square on your building hex into a canal. All squares directly adjacent to that square (not including diagonally adjacent squares) are considered to have a <<water border|Settlement-Rules#WaterBorder>>. A waterway must be adjacent to a water border or another waterway. Water cannot pass through a wall unless the wall has a <<Watergate|Settlement-Structures#Watergate>>.
 )
 
 item(
@@ -2140,7 +2139,7 @@ A windmill harnesses the power of the wind to grind grain or perform similar tas
 
 **Construction** Industry (trained) DC 18
 
-**Item Bonus** +1 item bonus to Harvest Crops
+**Item Bonus** +1 item bonus to <<Harvest Crops|Kingdom-Actions#HarvestCrops>>
 
-**Effect** If a settlement has at least one windmill built adjacent to a Cistern or Granary, the increased efficiency reduces the settlement’s Consumption by 1 (to a minimum of 0).
+**Effect** If a <<settlement|Settlement-Rules>> has at least one windmill built adjacent to a <<Cistern|Settlement-Structures#Cistern>> or <<Granary|Settlement-Structures#Granary>>, the increased efficiency reduces the <<settlement’s|Settlement-Rules>> <<Consumption|Settlement-Rules#Consumption>> by 1 (to a minimum of 0).
 )

@@ -2,13 +2,13 @@
 
 All kingdoms have leaders who fill roles tending to the economy, defense, and health of its citizens. Each role grants the kingdom different benefits, provided a character—be it a PC or an NPC—takes up the mantle of serving in that role. A character can only fill one leadership role at a time, but it’s important to have all eight roles filled, for when a kingdom goes without a leader, problems arise.
 
-If unexpected events (such as the death of a character) remove a leader from a leadership role, the New Leadership kingdom activity may immediately be used to assign a new leader to that role—even outside of a Kingdom turn.
+If unexpected events (such as the death of a character) remove a leader from a leadership role, the <<New Leadership|Kingdom-Actions#NewLeadership>> kingdom activity may immediately be used to assign a new leader to that role—even outside of a Kingdom turn.
 
-Each character in a leadership role (whether PC or NPC) must spend a week of downtime activity each month attending to their duties (though these seven days need not be consecutive). This downtime works just the same as time spent retraining a feat or skill; a character can take multiple downtime activities during the course of a month as time allows. A character can attend to their duties even if they take on a downtime activity with a longer time requirement (such as retraining a class feature, which requires at least a month); in this case, simply break up the time required for that longer activity over the course of consecutive months, leaving seven days during each month for leadership activities. NPCs assigned to leadership roles are presumed to meet the downtime requirement automatically unless the PCs deliberately have them step away from the job (likely to accompany them on adventures). If a character does not spend this downtime, at the start of the Upkeep phase of the next Kingdom turn, they either incur their role’s vacancy penalty (see below) or lose one of their leadership activities for that turn.
+Each character in a leadership role (whether PC or NPC) must spend a week of downtime activity each month attending to their duties (though these seven days need not be consecutive). This downtime works just the same as time spent retraining a feat or skill; a character can take multiple downtime activities during the course of a month as time allows. A character can attend to their duties even if they take on a downtime activity with a longer time requirement (such as retraining a class feature, which requires at least a month); in this case, simply break up the time required for that longer activity over the course of consecutive months, leaving seven days during each month for <<Leadership activities|Kingdom-Actions#LeadershipPhase>>. NPCs assigned to leadership roles are presumed to meet the downtime requirement automatically unless the PCs deliberately have them step away from the job (likely to accompany them on adventures). If a character does not spend this downtime, at the start of the <<Upkeep phase|Kingdom-Turn#UpkeepPhase>> of the next Kingdom turn, they either incur their role’s <<vacancy penalty|Leadership-Roles#VacancyPenalty>> or <<lose one of their leadership activities for that turn|Kingdom-Actions#LeadershipPhase>>.
 
-There is an advantage to investing a specific leadership role rather than leaving it uninvested. Each kingdom event specifies a leader, and if that leader is invested  is not incurring a vacancy penalty, the kingdom receives a bonus to the kingdom check that determines the event’s outcome.
+There is an advantage to <<investing|Leadership-Roles#KeyAbility>> a specific leadership role rather than leaving it uninvested. Each kingdom event specifies a leader, and if that leader is <<invested|Leadership-Roles#KeyAbility>> is not incurring a <<vacancy penalty|Leadership-Roles#VacancyPenalty>>, the kingdom receives a bonus to the kingdom check that determines the event’s outcome.
 
-Some benefits require that a role be invested. In step 7 of Kingdom Creation, the players select 4 leadership roles to be invested; at the start of each Kingdom turn, they may reselect the roles that are invested. Note that when certain companions detailed in the Kingmaker Companion Guide hold the leadership roles listed in their entry in that book, those roles are automatically invested; this is in addition to the four roles the players choose to invest.
+Some benefits require that a role be invested. In <<step 7 of Kingdom Creation|Kingdom-Creation#ChooseLeaders>>, the players select 4 leadership roles to be <<invested|Leadership-Roles#KeyAbility>>; at the start of each Kingdom turn, they may reselect the roles that are <<invested|Leadership-Roles#KeyAbility>>.
 
 Statistics for leadership roles are presented in the following format.
 
@@ -17,10 +17,10 @@ item(
 -
 A description of the leader’s role is provided here.
 -
-**Key Ability** This lists the kingdom ability score that is most impacted by the leader. When this role is invested, all Kingdom skill checks based on this ability gain a +1 status bonus. This bonus increases to +2 when the kingdom reaches 8th level, and then to +3 when the kingdom reaches 16th level.
-Since status bonuses don’t stack, you may want to invest one role that benefits each of the 4 kingdom abilities—but since each leadership role offers other unique benefits to the kingdom, spreading out the roles in that way may not always be the best choice!
+[[KeyAbility]]**Key Ability** This lists the kingdom ability score that is most impacted by the leader. When this role is invested, all Kingdom skill checks based on this ability gain a +1 status bonus. This bonus increases to +2 when the kingdom reaches 8th level, and then to +3 when the kingdom reaches 16th level.
+Since status bonuses from leaders don’t stack, you may want to invest one role that benefits each of the 4 kingdom abilities—but since each leadership role offers other unique benefits to the kingdom, spreading out the roles in that way may not always be the best choice!
 
-**Vacancy Penalty** At the start of each Kingdom turn, if any leader has not spent the required week of downtime in that role (see above) since the end of the last Kingdom turn, they must apply this penalty until the start of the next Kingdom turn. (When the vacancy penalty ends, any Unrest generated by the vacancy remains in place and must be ameliorated in the normal fashion.) Vacancy penalties also apply to leadership roles that are unassigned.
+[[VacancyPenalty]]**Vacancy Penalty** At the start of each Kingdom turn, if any leader has not spent the required week of downtime in that role (see above) since the end of the last Kingdom turn, they must apply this penalty until the start of the next Kingdom turn. (When the vacancy penalty ends, any <<Unrest|Kingdom-Rules#Unrest>> generated by the vacancy remains in place and must be ameliorated in the normal fashion.) Vacancy penalties also apply to leadership roles that are unassigned.
 )
 
 item(
@@ -30,13 +30,13 @@ The Ruler performs the kingdom’s most important ceremonies, is the kingdom’s
 -
 **Key Ability** Loyalty
 
-**Vacancy Penalty** –1 to all checks (this stacks with any other vacancy penalty); gain 1d4 Unrest at the start of the Kingdom turn; Control DC increases by 2
+**Vacancy Penalty** –1 to all checks (this stacks with any other vacancy penalty); gain 1d4 <<Unrest|Kingdom-Rules#Unrest>> at the start of the Kingdom turn; <<Control DC|Kingdom-Rules#ControlDC>> increases by 2
 )
 
 item(
-# Conselor[[Conselor]]
+# Counselor[[Counselor]]
 -
-The Counselor is a liaison between government and citizens. They study issues with academic analysis but also interpret the desires of the citizenry and present proclamations to the people in understandable ways. They also serve as an advisor to the other leaders, particularly to the Ruler.
+The Counselor is a liaison between government and citizens. They study issues with academic analysis but also interpret the desires of the citizenry and present proclamations to the people in understandable ways. They also serve as an advisor to the other leaders, particularly to the <<Ruler|Leadership-Roles#Ruler>>.
 -
 **Key Ability** Culture
 
@@ -50,7 +50,7 @@ The General leads the kingdom’s military, heading its armies and managing subo
 -
 **Key Ability** Loyalty
 
-**Vacancy Penalty** –4 to all Warfare activities
+**Vacancy Penalty** –4 to all <<Warfare activities|Kingdom-Turn#ArmyActivities>>
 )
 
 item(
@@ -70,7 +70,7 @@ The Magister is in charge of all things magical in the kingdom, attending to how
 -
 **Key Ability** Culture
 
-**Vacancy Penalty** –4 to all Warfare activities
+**Vacancy Penalty** –4 to all <<Warfare activities|Kingdom-Turn#ArmyActivities>>
 )
 
 item(
@@ -86,7 +86,7 @@ The Treasurer monitors the kingdom’s funds and the state of business and indus
 item(
 # Viceroy[[Viceroy]]
 -
-The Viceroy plans and implements the kingdom’s expansion and development, both in its territories and its settlements. They manage the infrastructure of the nation, overseeing major capital improvements and growing the networks that connect the hinterlands with the cities at the nation’s heart, helping keep the kingdom moving and growing.
+The Viceroy plans and implements the kingdom’s expansion and development, both in its territories and its <<settlements|Settlement-Rules>>. They manage the infrastructure of the nation, overseeing major capital improvements and growing the networks that connect the hinterlands with the cities at the nation’s heart, helping keep the kingdom moving and growing.
 -
 **Key Ability** Economy
 
@@ -96,13 +96,9 @@ The Viceroy plans and implements the kingdom’s expansion and development, both
 item(
 # Warden[[Warden]]
 -
-The Warden monitors the safety, security, and overall
-health of the kingdom, its lands, and its borders. They
-manage scouts and patrols in the countryside, respond
-to local threats and menaces as needed, and oversee the
-kingdom’s overall defense and health.
+The Warden monitors the safety, security, and overall health of the kingdom, its lands, and its borders. They manage scouts and patrols in the countryside, respond to local threats and menaces as needed, and oversee the kingdom’s overall defense and health.
 -
 **Key Ability** Stability
 
-**Vacancy Penalty** –4 to all Region activities
+**Vacancy Penalty** –4 to all <<Region activities|Kingdom-Turn#RegionActivities>>
 )

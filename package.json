@@ -8,7 +8,10 @@
         "preview": "vite preview",
         "test": "echo \"Error: no test specified\" && exit 1",
         "transform": "tsx scripts/transform_markdown.ts",
-        "capture": "tsx scripts/capture_data.ts"
+        "capture": "tsx scripts/capture_data.ts",
+        "regex": "tsx scripts/regex_replace.ts",
+        "missing": "tsx scripts/regex_find.ts",
+        "review": "tsx scripts/regex-review.ts"
     },
     "author": "",
     "license": "ISC",

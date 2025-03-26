@@ -53,6 +53,33 @@ type ParsedElement = HeadingData | ItemData | TableData | ParagraphData | ListDa
 
 type StackElement = { level?: number, content: ParsedElement[] };
 
+function isTableRow(line: string): boolean {
+    // First check if the line contains a pipe character
+    if (!line.includes('|')) return false;
+    
+    // Check if the line is a separator row (contains only pipes, dashes, and colons)
+    if (line.match(/^[\s|:-]+$/)) return true;
+    
+    // For regular rows, check if the pipes are not within <<text|text>> patterns
+    let inPattern = false;
+    let pipeCountOutsidePattern = 0;
+    
+    for (let i = 0; i < line.length; i++) {
+        if (line[i] === '<' && line[i + 1] === '<') {
+            inPattern = true;
+            i++; // Skip the second <
+        } else if (line[i] === '>' && line[i + 1] === '>') {
+            inPattern = false;
+            i++; // Skip the second >
+        } else if (line[i] === '|' && !inPattern) {
+            pipeCountOutsidePattern++;
+        }
+    }
+    
+    // If we have at least one pipe outside of patterns, it's a table row
+    return pipeCountOutsidePattern >= 1;
+}
+
 function parseMarkdown(markdown: string): ParsedElement[] {
     const lines = markdown.split('\n');
     const stack: StackElement[] = [{ content: [] }];
@@ -132,9 +159,32 @@ function parseMarkdown(markdown: string): ParsedElement[] {
         } else if (line.startsWith(';') && currentItem) {
             flushContent();
             currentItem.content.push({ type: 'traits', content: line.substring(1).split(',').map(t => t.trim()) });
-        } else if (line.includes('|')) {
+        } else if (isTableRow(line)) {
             flushContent();
-            const parts = line.split('|').map(part => part.trim());
+            
+            // Split the line into parts while respecting <<text|text>> patterns
+            const parts: string[] = [];
+            let currentPart = '';
+            let inPattern = false;
+            
+            for (let i = 0; i < line.length; i++) {
+                if (line[i] === '<' && line[i + 1] === '<') {
+                    inPattern = true;
+                    currentPart += '<<';
+                    i++; // Skip the second <
+                } else if (line[i] === '>' && line[i + 1] === '>') {
+                    inPattern = false;
+                    currentPart += '>>';
+                    i++; // Skip the second >
+                } else if (line[i] === '|' && !inPattern) {
+                    parts.push(currentPart.trim());
+                    currentPart = '';
+                } else {
+                    currentPart += line[i];
+                }
+            }
+            parts.push(currentPart.trim());
+
             let id: string | undefined = undefined;
             if (parts[parts.length - 1].endsWith(']]') && parts[parts.length - 1].includes('[[')) {
               id = parts[parts.length - 1].substring(parts[parts.length - 1].indexOf('[[') + 2, parts[parts.length - 1].indexOf(']]'));
@@ -152,7 +202,7 @@ function parseMarkdown(markdown: string): ParsedElement[] {
             }
             
             if (currentTable.columns.length === 0) {
-                currentTable.columns = parts.map((col, index) => ({ content: col, align: index === 0 ? 'left' : 'center' }));
+                currentTable.columns = parts.map((col, index) => ({ content: col.trim(), align: index === 0 ? 'left' : 'center' }));
             } else {
                 if (line.includes('---')) {
                   for (let i = 0; i < parts.length; i++) {
@@ -167,7 +217,10 @@ function parseMarkdown(markdown: string): ParsedElement[] {
                     }
                   }
                 } else {
-                  currentTable.data.push(parts);
+                  const processedRow = parts.map(cell => {
+                    return cell.trim();
+                  });
+                  currentTable.data.push(processedRow);
                 }
             }
         } else if (line === '-') {
@@ -190,9 +243,9 @@ function parseMarkdown(markdown: string): ParsedElement[] {
             }
             currentList.content.push(line.substring(2).trim());
         } else {
-            if (line.endsWith(']]') && line.includes('[[')) {
+            if (line.startsWith('[[') && line.includes(']]')) {
                 currentParagraphId = line.substring(line.indexOf('[[') + 2, line.indexOf(']]'));
-                line = line.substring(0, line.indexOf('[['));
+                line = line.substring(line.indexOf(']]') + 2);
             }
             contentBuffer.push(line);
         }
