@@ -4,7 +4,7 @@ Running a kingdom plays out as Kingdom turns that occur at the end of each in-ga
 
 ## Upkeep Phase[[UpkeepPhase]]
 
-During the Upkeep phase, you adjust your kingdom’s statistics based on activities you have taken during the previous month. Remember that you earn 1 <<Fame|Kingdom-Rules#FameAndInfamy>> or <<Infamy|Kingdom-Rules#FameAndInfamy>> point at the start of your turn.
+During the Upkeep phase, you adjust your kingdom’s statistics based on activities you have taken during the previous month.
 
 ### Step 1: Assign Leadership Roles[[AssignLeadershipRoles]]
 
@@ -12,17 +12,7 @@ To assign or change characters associated with <<leadership roles|Leadership-Rol
 
 Next, determine if any <<vacancy penalties|Leadership-Roles#VacancyPenalty>> apply. Any unassigned roles incur their <<vacancy penalties|Leadership-Roles#VacancyPenalty>>. Also, if a character assigned to a <<leadership role|Leadership-Roles>> hasn’t spent the required week of downtime on that role since the end of the last Kingdom turn, they must either give up one of the three kingdom activities they would perform during the <<Leadership activities|Kingdom-Actions#LeadershipPhase>> step of the <<Activity phase|Kingdom-Turn#ActivityPhase>> of this Kingdom turn or apply the <<vacancy penalty|Leadership-Roles#VacancyPenalty>> for their role until the start of the next Kingdom turn. (NPCs cannot perform kingdom activities, so in the unusual case that they were unable to spend the required downtime—see <<Leadership Roles|Leadership-Roles>>—they must apply the <<vacancy penalty|Leadership-Roles#VacancyPenalty>>.) If a leader was replaced between Kingdom turns due to an unexpected vacancy, as long as a character currently holds the role and any characters assigned to the role collectively spent the required downtime, the <<vacancy penalty|Leadership-Roles#VacancyPenalty>> does not apply.
 
-### Step 2: Adjust Unrest[[AdjustUnrest]]
-
-On your first Kingdom turn, your kingdom’s <<Unrest|Kingdom-Rules#Unrest>> score is 0; skip to the next step.
-
-On all other turns, adjust your <<Unrest|Kingdom-Rules#Unrest>> score: Increase it by 1 for every <<settlement|Settlement-Rules>> in your kingdom that’s <<Overcrowded|Settlement-Structures#ResidentialLotsAndOvercrowding>>. If you are at war, increase it by 1. Other ongoing events may have ongoing <<Unrest|Kingdom-Rules#Unrest>> adjustments as well; make them at this time.
-
-After making all adjustments, if your kingdom’s <<Unrest|Kingdom-Rules#Unrest>> is 10 or higher, the kingdom gains 1d10 points to its <<Ruins|Kingdom-Rules#Ruin>>. Distribute these points in any way you wish among the four <<Ruins|Kingdom-Rules#Ruin>>. In addition, attempt a DC 11 flat check. On a failure, one hex of your kingdom is lost; the PCs choose which hex. See <<Losing Hexes|Kingdom-Rules#LosingHexes>> in the <<Kingdom Rules|Kingdom-Rules>> for more information.
-
-[[Anarchy]]If your kingdom’s <<Unrest|Kingdom-Rules#Unrest>> is 20 or higher, the entire nation also falls into anarchy. While in anarchy, you can only attempt <<Quell Unrest|Kingdom-Actions#QuellUnrest>> activities, and the results of all kingdom checks are worsened one degree.
-
-### Step 3: Resource Collection[[ResourceCollection]]
+### Step 2: Resource Collection[[ResourceCollection]]
 
 The exact amount of resources you have to draw upon each Kingdom turn varies, as each month there are countless unexpected boons and setbacks throughout each citizen’s life that can impact how they can bolster your national plans.
 
@@ -32,7 +22,25 @@ Next, roll your <<Resource Dice|Kingdom-Rules#ResourceDice>> to determine how ma
 
 Finally, if you have any <<Work Sites|Kingdom-Rules#WorkSite>> established in your kingdom, gather <<Commodities|Kingdom-Rules#Commodities>>. You gain 1 <<Commodity|Kingdom-Rules#Commodities>> from each <<Work Site|Kingdom-Rules#WorkSite>>, or double that if the <<Work Site|Kingdom-Rules#WorkSite>> is in a <<Resource|Kingdom-Rules#Resource>> hex. Any <<Commodities|Kingdom-Rules#Commodities>> gathered in excess of your <<storage capacity|Kingdom-Rules#Commodities>> are lost.
 
-### Step 4: Pay Consumption[[PayConsumption]]
+### Step 3: Structure Advancement[[StructuresAdvancement]]
+
+On your first Kingdom turn, you have no structures under construction; skip to the next step.
+
+You may advance any number of <<structures|Settlement-Structures>> that are under construction in your kingdom. When you do so, spend the monthly <<RP|Kingdom-Rules#ResourcePoints>> for the <<structure|Settlement-Structures>> and reduce the remaining <<construction time|Kingdom-Turn#StructuresAdvancement>> by 1 month. If the <<structure|Settlement-Structures>> is complete, its effects are applied immediately and any bonuses are applied.
+
+If you have any buildings that were under construction that you did not advance, subtract the number of buildings you did not advance from the number of <<settlements|Settlement-Rules>> in your kingdom. If the number is greater than 0, you gain that much <<Unrest|Kingdom-Rules#Unrest>> as your citizens begin to think your kingdom is taking on too many projects. For example, if you have 3 <<settlements|Settlement-Rules>> and 5 buildings under construction that you did not advance, you gain 2 <<Unrest|Kingdom-Rules#Unrest>>.
+
+### Step 4: Adjust Unrest[[AdjustUnrest]]
+
+On your first Kingdom turn, your kingdom’s <<Unrest|Kingdom-Rules#Unrest>> score is 0; skip to the next step.
+
+On all other turns, adjust your <<Unrest|Kingdom-Rules#Unrest>> score: Increase it by 1 for every <<settlement|Settlement-Rules>> in your kingdom that’s <<Overcrowded|Settlement-Structures#ResidentialLotsAndOvercrowding>>. If you are at war, increase it by 1. Other ongoing events may have ongoing <<Unrest|Kingdom-Rules#Unrest>> adjustments as well; make them at this time.
+
+After making all adjustments, if your kingdom’s <<Unrest|Kingdom-Rules#Unrest>> is 10 or higher, the kingdom gains 1d10 points to its <<Ruins|Kingdom-Rules#Ruin>>. Distribute these points in any way you wish among the four <<Ruins|Kingdom-Rules#Ruin>>. In addition, attempt a DC 11 flat check. On a failure, one hex of your kingdom is lost; the PCs choose which hex. See <<Losing Hexes|Kingdom-Rules#LosingHexes>> in the <<Kingdom Rules|Kingdom-Rules>> for more information.
+
+[[Anarchy]]If your kingdom’s <<Unrest|Kingdom-Rules#Unrest>> is 20 or higher, the entire nation also falls into anarchy. While in anarchy, you can only attempt <<Quell Unrest|Kingdom-Actions#QuellUnrest>> activities, and the results of all kingdom checks are worsened one degree.
+
+### Step 5: Pay Consumption[[PayConsumption]]
 
 Your <<settlements|Settlement-Rules>> and armies require a certain amount of provisions, supplies, and funding, as well as all the basic necessities of life.
 
@@ -41,12 +49,6 @@ On your first Kingdom turn, your kingdom’s <<Consumption|Settlement-Rules#Cons
 On all other turns, calculate your kingdom’s <<Consumption|Settlement-Rules#Consumption>> score. This is the total of your <<settlements’|Settlement-Rules>> <<Consumption|Settlement-Rules#Consumption>> scores plus your armies’ <<Consumption|Settlement-Rules#Consumption>> scores minus the number of <<Farmland|Kingdom-Rules#Farmland>> hexes you have within <<influence|Settlement-Rules#Influence>> range of your <<settlements|Settlement-Rules>>, plus any modifiers from kingdom events.
 
 Spend Food <<Commodities|Kingdom-Rules#Commodities>> equal to your kingdom’s <<Consumption|Settlement-Rules#Consumption>>. If you can’t or choose not to spend this <<Commodity|Kingdom-Rules#Commodities>> cost, you can either spend 5 <<RP|Kingdom-Rules#ResourcePoints>> per point of unpaid <<Consumption|Settlement-Rules#Consumption>> or increase <<Unrest|Kingdom-Rules#Unrest>> by 1d4.
-
-### Step 5: Structure Advancement[[StructuresAdvancement]]
-
-You may advance any number of <<structures|Settlement-Structures>> that are under construction in your kingdom. When you do so, spend the monthly <<RP|Kingdom-Rules#ResourcePoints>> for the <<structure|Settlement-Structures>> and reduce the remaining <<construction time|Kingdom-Turn#StructuresAdvancement>> by 1 month. If the <<structure|Settlement-Structures>> is complete, its effects are applied immediately and any bonuses are applied.
-
-If you have any buildings that were under construction that you did not advance, subtract the number of buildings you did not advance from the number of <<settlements|Settlement-Rules>> in your kingdom. If the number is greater than 0, you gain that much <<Unrest|Kingdom-Rules#Unrest>> as your citizens begin to think your kingdom is taking on too many projects. For example, if you have 3 <<settlements|Settlement-Rules>> and 5 buildings under construction that you did not advance, you gain 2 <<Unrest|Kingdom-Rules#Unrest>>.
 
 ## Commerce Phase[[CommercePhase]]
 

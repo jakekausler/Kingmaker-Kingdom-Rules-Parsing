@@ -11,7 +11,9 @@
         "capture": "tsx scripts/capture_data.ts",
         "regex": "tsx scripts/regex_replace.ts",
         "missing": "tsx scripts/regex_find.ts",
-        "review": "tsx scripts/regex-review.ts"
+        "review": "tsx scripts/regex-review.ts",
+        "structures": "tsx scripts/extract_settlements.ts",
+        "actions": "tsx scripts/extract_actions.ts"
     },
     "author": "",
     "license": "ISC",

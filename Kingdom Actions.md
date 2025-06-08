@@ -48,7 +48,7 @@ item(
 -
 Attempt a basic check to draw upon your kingdom’s treasury to enhance the quality of life for your citizens. This activity can be taken only during the <<Commerce phase|Kingdom-Turn#CommercePhase>> of a Kingdom turn.
 
-<p class="hang" style="text-align-last: justify">**Critical Success** Your push to Improve Lifestyles affords your citizens significant free time to pursue recreational activities. For the remainder of the Kingdom turn, you gain a +2 circumstance bonus to Culture-based checks.
+**Critical Success** Your push to Improve Lifestyles affords your citizens significant free time to pursue recreational activities. For the remainder of the Kingdom turn, you gain a +2 circumstance bonus to Culture-based checks.
 
 **Success** Your push to Improve Lifestyles helps your citizens enjoy life. For the remainder of the Kingdom turn, you gain a +1 circumstance bonus to Culture‑based checks.
 

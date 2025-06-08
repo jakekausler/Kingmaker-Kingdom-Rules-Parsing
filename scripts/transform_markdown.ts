@@ -243,6 +243,7 @@ function parseMarkdown(markdown: string): ParsedElement[] {
             }
             currentList.content.push(line.substring(2).trim());
         } else {
+            currentParagraphId = undefined;
             if (line.startsWith('[[') && line.includes(']]')) {
                 currentParagraphId = line.substring(line.indexOf('[[') + 2, line.indexOf(']]'));
                 line = line.substring(line.indexOf(']]') + 2);
